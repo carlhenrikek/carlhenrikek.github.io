@@ -21,7 +21,7 @@
     <url>
       <loc>http://www.carlhenrik.com/about</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -36,7 +36,7 @@
     <url>
       <loc>http://www.carlhenrik.com/cv/</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -51,7 +51,7 @@
     <url>
       <loc>http://www.carlhenrik.com/feed.xml</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,7 +66,7 @@
     <url>
       <loc>http://www.carlhenrik.com/teaching/gfx</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,82 +81,7 @@
     <url>
       <loc>http://www.carlhenrik.com/teaching/graphics</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.carlhenrik.com/publications/</loc>
-      
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.carlhenrik.com/research/mlrg/</loc>
-      
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.carlhenrik.com/research/</loc>
-      
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.carlhenrik.com/group/</loc>
-      
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.carlhenrik.com/personal/</loc>
-      
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -171,7 +96,67 @@
     <url>
       <loc>http://www.carlhenrik.com/talks/</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.carlhenrik.com/personal/</loc>
+      
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.carlhenrik.com/publications/</loc>
+      
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.carlhenrik.com/research/mlrg/</loc>
+      
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.carlhenrik.com/research/</loc>
+      
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -186,7 +171,7 @@
     <url>
       <loc>http://www.carlhenrik.com/teaching/amiga/</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -201,7 +186,22 @@
     <url>
       <loc>http://www.carlhenrik.com/teaching/</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.carlhenrik.com/group/</loc>
+      
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -216,7 +216,7 @@
     <url>
       <loc>http://www.carlhenrik.com/</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -231,7 +231,7 @@
     <url>
       <loc>http://www.carlhenrik.com/css/main.css</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -248,7 +248,7 @@
     <url>
       <loc>http://www.carlhenrik.com/teaching</loc>
       
-        <lastmod>2018-03-18T21:06:21+00:00</lastmod>
+        <lastmod>2018-04-04T14:33:43+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
