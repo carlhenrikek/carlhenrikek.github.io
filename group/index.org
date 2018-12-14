@@ -1,0 +1,73 @@
+#+STARTUP: showall expand
+#+STARTUP: hidestars
+#+options: toc:nil
+#+BEGIN_SRC yaml :exports results :results value html
+---
+layout: page
+title: Research Group
+---
+#+END_SRC
+
+* Current Students
+** PhD
+   - Aidan Scannell (University of Bristol, 2018-) co-supervisor with Arthur Richards
+   - Emelie Barman (University of Bath, 2017-) jointly with Neill Campbell
+   - Erik Bodin (University of Bristol, PhD, 2017-) jointly with Neill Campbell
+   - Andrew Lawrence (University of Bath, 2016-) jointly wih Neill Campbell
+   - Markus Kaiser (Technical University Munich & Siemens, PhD, 2016-) jointly with Clemens Otte and Thomas Runkler
+   - Alessandro di Martino (University of Bath, PhD, 2016-) jointly with Neill Campbell
+   - Ieva Kazlauskaite (University of Bath, PhD, 2016-) jointly with Neill Campbell
+   - Akshaya Thippur (KTH, PhD, 2016-) co-supervisor with Patric Jensfeldt
+   - Martin Hjelm (KTH, PhD, 2012-) co-supervisor with Danica Kragic.
+   - Marianna Madry (KTH, PhD, 2011-) co-supervisor with Danica Kragic.
+** MEng, MSc, BSc
+   - Nazaal Ibrahim
+   - Andra Popa
+   - Razvan Meriniuc
+   - Bilal Kazi
+   - Rachel Jeffries-Harris
+   - Grant Stevens
+   - Jamie Terry
+   - Mark Waddoups
+* Past Students
+   - Sam Walker (University of Bristol, BSc, 2017-2018)
+   - Mudit Gupta (University of Bristol, MEng, 2017-2018)
+   - Angela Puscasu (University of Bristol, BSc CS&Math, 2017-2018)
+   - Adey Akitoye (University of Bristol, MEng CS&Math, 2017-2018)
+   - Alvina Kam (University of Bristol, BSc, 2017-2018)
+   - Tudor Ciurca (University of Bristol, BSc, 2017-2018)
+   - Ewan Stanley (University of Bristol, BSc, 2017-2018)
+   - Jenning Lim (University of Bristol, BSc CS&Math, 2017-2018) *Best dissertation in Machine Learning*
+   - Sam Davies (University of Bristol, MEng, 2017-2018)
+   - John Griffith (University of Bristol, MEng, 2017-2018)
+   - Torty Sivill (University of Bristol, MEng, 2017-2018) *Best MEng project 2017/18*
+   - Matthew Woodhouse (University of Bristol, MEng, 2016-2017)
+   - Josh Jones (University of Bristol, MEng, 2016-2017)
+   - Sam Cordingley (University of Bristol, MEng, 2016-2017)
+   - Dillon Diep (University of Bristol, MEng, 2016-2017)
+   - Dacre Chapstick (University of Bristol, MEng, 2016-2017) *Best Software Development Tools project*
+   - Stoul Ganev (University of Bristol, MEng, 2016-2017)
+   - Iman Malik (University of Bristol, MEng, 2016-2017)
+   - James Sewart (University of Bristol, MEng, 2016-2017)
+   - Callum Mann (University of Bristol, MEng, 2016-2017)
+   - Warren Boult (University of Bristol, BSc, 2016-2017)
+   - Cheng Zhang (KTH, PhD, 2012-2016) together with Hedvig Kjellström.
+   - Johannes Stork (KTH, PhD, 2013-2016) together with Danica Kragic.
+   - Erik Aalto (KTH, MSc, 2015) now at King
+   - Máté Szekér - /Spatio-temporal outlier detection in streaming trajectory data/ (KTH, MSc, 2014) with Tove Gustavi. Now at Accenture
+   - Daniel von Witting - /Annotation and indexing of video content based on sentiment analysis/ (KTH, MSc, 2014)
+   - Erik Bodin - /Video content annotation automation using machine learning techniques/ (KTH, MSc, 2014) went to Netlight now a PhD candidate at University of Bristol
+   - Caroline Magnusson - /Improving marketing campaigns using Uplift Modelling/ (KTH, MSc, 2014-2015) now at Google
+   - Anders Huss - /Hybrid Model Approach to Appliance Load Disaggregation/ (KTH, MSc, 2014-2015) now at Watty
+   - Christine Winter - /The Hyper Path Kernel/ (University of Lübeck, MSc, 2014-2015)
+   - Andrea Baisero - /Representing Sequences with Kernels/. (KTH, MSc, 2012) with Florian Pokorny and Danica Kragic. Winner of Swedish Artificial Inteligence Societies Best thesis award 2013. Now a PhD candidate at University of Stuttgart.
+   - Akshaya Thippur Sridatta - /Analysis of Different Feature Spaces for Applications to Hand Pose Estimation/. (KTH, MSc, 2012) with Hedvig Kjellström and Danica Kragic. Now a PhD candidate at KTH.
+   - Victoria Matute - /Robust Factorized Shape Descriptors/ (KTH, MSc, 2011) with Danica Kragic. Now at Ericsson.
+   - Carlos Hernandez Matas - /Active 3D Scene Segmentation using Kinect/ - (KTH, MSc, 2011) with Niklas Bergström and Danica Kragic. Now a Research Assistant at FORTH Greece.
+   - Niklas Bergström - /Interactive Perception: From Scenes to Objects/. (KTH, PhD, 2011-2012) together with Danica Kragic and Mårten Björkman. Now an Assistant Professor at University of Tokyo.
+   - Alexander Davies (University of Bristol, PhD, 2010-2013) together with Colin Dalton and Neill Campbell. Now at Tobii.
+   - Björn Hegestam - /Locality Sensitive Hashing/ (KTH, BSc, 2011) with Hedvig Kjellström.
+   - Joakim Hugmark - /Locality Sensitive Hashing/ (KTH, BSc, 2011) with Hedvig Kjellström.
+   - Guoliang Luo (KTH and Uppsala University, MSc, 2010-11) with Danica Kragic and Anders Brun. Received his PhD from University of Strasbourg in 2014.
+   - Javier Romero - /From Human to Robot Grasping/. (KTH, PhD, 2010-2011) together with Danica Kragic and Hedvig Kjellström. Now a Postdoctoral researcher at MPI in Tübingen
+   - Marin Saric - /Convex Kernel Embeddings/ (KTH, MSc, 2010) with Danica Kragic.

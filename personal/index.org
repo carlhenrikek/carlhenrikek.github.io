@@ -1,0 +1,70 @@
+#+STARTUP: showall expand
+#+STARTUP: hidestars
+#+options: toc:nil
+#+BEGIN_SRC yaml :exports results :results value html
+---
+layout: page
+title: Personal
+---
+#+END_SRC
+
+#+RESULTS:
+#+BEGIN_EXPORT html
+---
+layout: page
+title: Personal
+---
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+{% include image.html url="bin/amiga600.jpg" width=300 align="right"%}
+#+END_EXPORT
+
+
+I like computers, not because what you can do with them but just because what they actually are. In modern life we are using computers for all sorts of things that makes our lives easier. This revolution has come about because we have managed to abstract computers into something much closer to human rational and how we interact. However, for a fellow like me this is not all positive because as I started off with saying I like computers and this abstraction makes them much less visible to us. My smartphone is a great piece of hardware but I don’t really think of it as computer when I interact with, swiping is natural to me but it is not for the computer. To me making a pice of hardware do what I want it by reading its hardware manual is joy, carefully crafting something according to what the hardware was designed to do. Programming in an abstract language such as C or Java might be convenient to achieve results in the most time efficient manner but you have to know very little about computers in order to do so. To satisfy my interest I therefore spend a lot of my free time reenacting a time when computers where computers. I mainly use Commodore computers, predominantly Amigas, a computer concived over 30 years ago and one of the most revolutionary products both in terms of hardware and software. I also like computer graphics and as a member of the demo group Tulou I work with my fellow group members creating demos. Below you will find a list of some reasonably recent productions from us.
+
+#+BEGIN_EXPORT html
+{% include demo.html
+img="bin/dakar.jpg"
+title="The Chronicles of Prince Dakkar and his Pilgrimage to the Abyss"
+abstract="This demo was presented at Breakpoint 2010 in Bingen, Germany. It features a very atmospheric soundtrack by Esau of Traktor linked together with graphics by Todi all carefully executed by code written by the Tulou team of Bonkers, Todi and Dalton. The demo contains a very nicely crafted scene with a sprite submarine, a spherical voxel depicted as a blow-fish that actually has a spherical texture, an implementation of flocking using the original boids algorithm and a great zoomer used for the credits."
+lha="http://www.tulou.org/download/tlu-pdva.lha"
+youtube="http://www.youtube.com/watch?v=CNfgu-1_-18&fmt=18"
+%}
+#+END_EXPORT
+#+BEGIN_EXPORT html
+{% include demo.html
+img="bin/arronax.jpg"
+title="The Chronicles of Professor Arronax"
+abstract="This was our contribution to the Amiga demo competition at Breakpoint 2008 in Bingen Germany. The demo is focused on clean effects and has more of an old-school feeling to it compared to the heavy 3D textured mapped beasts of productions that was the norm at the time. As a reaction I think we managed to execute this production quite well even though its clearly lacking some content in certain parts. The demo contains some interesting hardware effects for synchronisation to the music, a very nice zoomer and three different kinds of voxel renderings."
+lha="http://www.tulou.org/download/tlu-arnx.lha"
+youtube="http://www.youtube.com/watch?v=AWwJDBgliqE"
+%}
+#+END_EXPORT
+#+BEGIN_EXPORT html
+{% include demo.html
+img="bin/buddleigh.jpg"
+title="Buddleigh Salterton"
+abstract="This demo was coded in a couple of hectic days in Chorlton outside Manchester with the aim of being released at Sundown 2007 in the sleepy Devon village of Buddleigh Salterton. In the end we withdrew the demo from the competition as we weren’t all together happy with it. The demo was instead released at GREP White 2007 in Skövde were it won the combined demo competition. This demo shows the versatility of our voxel engine rendering several different primitives, spheres, cylinders and planes. The highlight of the demo is definitely the graphics by Todi and the music by Esau."
+lha="http://www.tulou.org/download/tlu-bdst.lha"
+youtube="https://www.youtube.com/watch?v=6dASui1nvCs"
+%}
+#+END_EXPORT
+#+BEGIN_EXPORT html
+{% include demo.html
+img="bin/fleetwood.jpg"
+title="Fleetwood"
+abstract="This is our contribution to the Amiga demo competition at Breakpoint 2007 in Bingen Germany. For this demo we took onboard Lance and Esau from Traktor as 3D artists. Who made a fantastic amount of objects and scenes depicting all sorts of strange things. This demo is far from finished, we aimed high and failed spectacularly. Several scenes are in grayscale simply because we didn’t have time to sort out palettes, the greetings are hardly visible due to strange timings. However, there is still something to this dem and for those of you well versed in Amiga demos I think that what Lance and Esau really intended to produce had a much better match when they teamed up with Nature to produce Surfing Great Victoria, Jesus Christ Motocross and Garden Variety Autobulk, some of the most refreshing and innovative demos produced."
+lha="http://www.tulou.org/download/tut-fltw.lha"
+youtube="https://www.youtube.com/watch?v=vpC4drBpt2E"
+%}
+#+END_EXPORT
+#+BEGIN_EXPORT html
+{% include demo.html
+img="bin/tourdescene.jpg"
+title="Tour de Scene"
+abstract="This is a nice little demo that was first presented at Breakpoint 2006 in Bingen Germany. The highlight of this production is the atmospheric soundtrack by Esau and the consistent design by Todi. What the demo lacks in terms of effects it more than makes up for by having a happy mood. The name of the demo comes from the fact that we were celebrating our first decade as a demo group and what better way to show it than on the big screen at Breakpoint."
+lha="http://ada.untergrund.net/showdemo.php?demoid=535"
+youtube="https://www.youtube.com/watch?v=K_WffjTluxc"
+%}
+#+END_EXPORT

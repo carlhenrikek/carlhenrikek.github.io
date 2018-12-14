@@ -1,0 +1,40 @@
+#+STARTUP: showall expand
+#+STARTUP: hidestars
+#+options: toc:nil
+#+BEGIN_SRC yaml :exports results :results value html
+---
+layout: page
+title: Amiga Assembler Tutorial
+---
+#+END_SRC
+
+#+RESULTS:
+#+BEGIN_EXPORT html
+---
+layout: page
+title: Amiga Assembler Tutorial
+---
+#+END_EXPORT
+
+This tutorial is aimed at people who are interested in starting to program the Commodore Amiga. As we want to understand a computer and not a programming language and as we want to write as efficient code as possible we will code in assembler. You are not expected to know assembler before we start and we will go through everything that you need. If you need a reason to take this tutorial 
+
+* Introduction to the Commodore Amiga
+  - History :: How did the Amiga Come about?
+  - Structure :: What is the intention of this?
+  - Environment :: We will set-up a virtual development environment that we can run our code in. You will see how AmigaOS works.
+* Motorola 680x0
+  - Strucutre :: How is the Amiga hardware structured?
+  - 680x0 ASM :: We will go through the basics needed to program 680x0 assembler, the instructions that we need, the flags/conditions and the different addressing modes. I doubt there is a nicer CPU to program then the 680x0 architecture especially if you are coming from the x86 world.
+  - AsmOne :: We will use the integrated assembler [[http://www.tfa.org/documents/asmone.html][Asm-One]] as our development environment, it is very useful as it has built in debugger and monitor.
+* The Chipset
+  Now we have gathered the tools to be able to start exploring the chips that makes the Amiga such a unique platform. We will begin by looking at how we can set-up a screen.
+  - Startup code :: How is a screen set-up and how to we take control from the OS to _rule_ the machine ourselves
+  - Copper :: We will look at the first co-processor in the chips-set the famous /copper/. The aim is to be able to set-up a stable screen and get interupts from the beam.
+* Effects
+  In this session we will look at how we can start writing some simple effects using only the copper and the CPU. We will also look at some demos and try to see how things have been done.
+* Demo
+  In this last session we will summarise what we have looked at and where to go next. What is needed to create your own demo.
+** The player
+   In this tutorial we have focused on graphics but the Amiga has quite a good sound chip as well. Referred to as Paula she can play sampled music in 4-chanels (or voices) and even though she doesn't have as characteristic sounds as the YM or the SID chip of she can still be recognised mainly due to the tracker-style music that was developed on her. Sadly we do not have time to discuss Paula in detail but we will set-up a minimal system and look at how we can time effects to music.
+** Chunky-to-Planar
+   Some effects are really tricky to write in Bitplane mode as it requires lots of masking and adressing in order to be able to write a single pixel. Therefore it is sometimes desirable to have a /chunky/ screen instead, i.e. a scree where you can adress each 8-bit pixel individually. To do so we can use a Chunky-to-Planar converter or a *c2p*. The calculations to perform this conversion is rather hefty to we can only use this on rather fast machines, 030 and upwards.

@@ -1,0 +1,14 @@
+#+STARTUP: showall expand
+#+STARTUP: hidestars
+#+options: toc:nil
+
+#+begin_src yaml :exports results :results value html
+---
+layout: page
+title: "Computer Graphics"
+---
+#+end_src
+#+results:
+
+
+this is the 

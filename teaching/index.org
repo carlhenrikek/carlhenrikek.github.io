@@ -1,0 +1,83 @@
+#+STARTUP: showall expand 
+#+STARTUP: hidestars
+#+options: toc:nil
+#+BEGIN_SRC yaml :exports results :results value html
+---
+layout: page
+title: Teaching
+---
+#+END_SRC
+
+#+RESULTS:
+#+BEGIN_EXPORT html
+---
+layout: page
+title: Teaching
+---
+#+END_EXPORT
+
+* Current Courses (Designed)
+** Computer Graphics
+   Computer Graphics is a topic that encapsulate every aspect of computer science. The visual world is complicated and it is challenging to create physically correct simulations with limited computational resources. Therefore we need to exploit algorithmical properties to reduce computational cost and we need to understand computer architecture and hardware to write efficient programs to aquire data we can exploit machine learning and computer vision. What makes it even more exciting is that we want to create a product to be consumed by humans so by understanding our perception system we can spend computational resources where it matters.
+
+   In this unit we focus on the rendering aspects of graphics. We start from an empty page, i.e. with a pointer to a frame buffer. From this we explore and implement two different rendering engines, one focusing on realism while the other on efficiency. The unit page can be found [[http://carlhenrikek.github.io/COMS30115][here]] and the repository that includes all the material [[http://github.com/carlhenrikek/COMS30115][here]].
+** Machine Learning
+   Machine learning can seem like a very rapidly moving field, every day there are new applications and it is currently getting an unprecidented attention in the media. This is an exciting time because the solutions it creates are important and it has the possibility to change the way we live in fundamental ways. However, something which might seem surprising is that the methodologies underpinning this rapid progress are centuries old and built on a few important principles. In this unit we focus on the basic and fundamental concepts of learning and in specific formulations of learning that are applicable to machines.
+
+   The unit page can be found [[http://carlhenrikek.github.io/COMS30007][here]] and the repository that includes all the material [[http://github.com/carlhenrikek/COMS30007][here]].
+** Amiga Assembler Tutorial 
+   Computer science is the field that studies computation and it has lead to fascinating developments that have fundamentally changed society. A huge part of this is of course down to the rise of the electronic computer which have allowed us rapidly and exactly perform the tasks which are indeed computable. These things are though very interesting in themselves but sadly we see less and less of them in our daily computational tasks. Programming languages have become so abstract that its hard to even understand how and what they actually execute. It is therefore easy to forget the wonderful electronic computer, the marvelous engineering that have fascilitated this progress. To bring back the computer into programming again I designed a tutorial course on Amiga assembler programming. The Amiga is a computer that epitomises creativity, even though its over three decades old there are new developments and discoveries happening every year. This tutorial aims to help those of us who are old to rediscover the fun and to those of you that grew up with computers as a tool and not a fried to discover the creative process that is programmin
+g.
+
+* Awards
+  - Teacher of the year in Computer Science at University of Bristol, 2016
+  - Teacher of the year at Royal Institute of Technology, Sweden [[file:~/Dropbox/work/WWW/jekyll/_org/bin/2015_TeacherOfTheYear.pdf][motivation]], 2015
+  - Teacher of the year from Student chapter in Industrial Economics at Royal Institute of Technology, 2015
+  - Teacher of the year in Computer Science at Royal Institute of Technology, 2012
+
+* Previous Units (Designed)
+** Signals Systems and Pattern
+   This is a unit that tries to introduce data-driven learning. I was prodviding the machine learning part of the unit where I introduced the concepts of learning. How can we formulate explicit assumptions that we can combine with data to create new knowledge.
+   
+** Advanced Machine Learning
+  Machine learning is the study of algorithms that can learn from data. Intelligence can be seen as the capability to act under uncertainty. This course tries to make these two concepts principled and teach the underlying scientific framework namely Bayesian statistics. I gave a third of the lectures in this course focusing on Bayesian modelling, non-parametrics and Kernel methods. The course is suitable for anyone who is interested acquiring a foundation for understanding machine learning algorithms from a unified perspective, learning a basis for developing new novel algorithms and models.
+
+  The material in this course is mathematical, the concepts are not advanced, only basic linear algebra and calculus but the course is focused on understanding which means that to get something out from the material will require a certain mathematical maturity.
+
+** Low-level Programming and Computer Architecture
+  This course is focused learning the inner workings of a computer. We start from the real basics trying to explain what actually happens in the electronics when you press a key and build this up to a level where we start abstracting the hardware with operating systems and high-level programming languages. I thoroughly believe that the best way to learn these things is through practice, therefore the course is heavily lab focused where the three labs makes up the dominant part of the course. We use Raspberry Pi computers to do the labs and program the hardware directly by learning ARM assembler. We also do a lab in C where we hack the Linux kernel to extend it with additional functionality.
+
+  The course is suitable for anyone who have an interest in low-level computing and does not require any previous background except a genuine interest in computers. I believe that the course is important for anyone who will work with computers in the future, understanding how a computer really works will make you a better programmer even if you will mainly use high-level languages in the future.
+* Previous Teaching
+  Between 2010 to 2015 I was a lecturer at Royal Institute of Technology, since January 2016 I work at the University of Bristol.
+** 2017-2018
+   - Machine Learning - Lecturer
+   - Computer Graphics - Lecturer
+   - MEng individual project - Organiser
+** 2016-2017
+   - Computer Graphics - Lecturer
+   - Signals Systems and Patterns - Lecturer
+** 2015-2016
+   - Low Level Programming and Computer Architecture - Lecturer
+   - Advanced Machine Learning - Lecturer
+   - Computer Graphics - Lecturer
+** 2014-2015
+   - Low Level Programming and Computer Architecture - Lecturer
+   - Advanced Machine Learning - Lecturer
+** 2013-2014
+   - Low Level Programming and Computer Architecture - Lecturer
+   - Degree Project in Machine Learning for Engineering Physics - Project Supervisor
+   - Degree Project in Computer Science - Project Supervisor
+   - Computer Graphics and Interaction - Guest Lecturer
+** 2012-2013
+   - Low Level Programming and Computer Architecture - Lecturer
+   - Degree Project in Machine Learning for Engineering Physics - Project Supervisor
+   - Degree Project in Computer Science - Project Supervisor
+   - Computer Graphics and Interaction - Guest Lecturer
+** 2011-2012
+   - Computer Graphics and Interaction - Lecturer
+   - Computer Science and Numerical Methods - Lecturer
+   - Scientific Visualisation - Lecturer
+   - Scientific Programming - Lecturer
+** 2010-2011
+   - Scientific Programming - Lecturer

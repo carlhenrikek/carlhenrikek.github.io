@@ -1,0 +1,984 @@
+#+STARTUP: showall expand indent
+#+STARTUP: hidestars
+#+options: toc:nil
+#+BEGIN_SRC yaml :exports results :results value html
+---
+layout: page
+title: Publications
+---
+#+END_SRC
+
+#+RESULTS:
+#+BEGIN_EXPORT html
+---
+layout: page
+title: Publications
+---
+#+END_EXPORT
+
+Below you will find my complete list of publications, you can find most of these from my [[https://scholar.google.co.uk/citations?user=9yQ1tQoAAAAJ&hl=en][Google Scholar Page]].
+
+* Publications
+** 2018
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Active Learning Using Gaussian Processes for Imbalanced Datasets"
+   authors="Fariba Yousefi, Mauricio Alvarez, Carl Henrik Ek and Neil Lawrence"
+   abstract="In this paper we address the imbalance problem in image classification using a combination of transfer learning from Convolutional Neural Networks (CNN) with Gaussian Process (GP) Classification. Manually labelling images is tedious and also image datasets can be expensive to label. In most cases, there are lots of data with no labels, and even if we have labels they are high-level labels. We consider a real-world example for image classification. The objective is to predict whether a pipe image consists of a clamp or not. We do not have the labels for the clamp itself but instead, some high-level labels which specifies if there is a clamp in the whole image or not. To overcome this difficulty our goal is to select data in a sensible manner and label fewer data so we can have efficient models with fewer labelled images. This will be achieved using active learning. The process starts with a small set of labelled data and continues by actively adding data from a pool of unlabelled data by manually labelling them. The proposed active learning method is able to use less data compared to other supervised learning approaches such as CNN. We compared the proposed method against CNN, Logistic Regression (LR) and random patch selection showing increased performance in terms of Recall and F1-Score."
+   venue="Neural Information Processing Systems (NIPS) Workshop on Bayesian Non-parametrics"
+   year="2018"
+   id="2018nips3"
+   url=""
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Shape Modeling based on Sparse Gaussian Process Implicit Surfaces"
+   authors="Gabriela Zarzar Gandler, Carl Henrik Ek and Yasemin Bekiroglu"
+   abstract=""
+   venue="Neural Information Processing Systems (NIPS) Workshop Women in Machine Learning"
+   year="2018"
+   id="2018nips4"
+   url=""
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Sequence Alignment with Dirichlet Process Mixtures"
+   authors=" I. Kazlauskaite, I. Ustyuzhaninov, C. H. Ek, N. D. F. Campbell"
+   abstract="We present a probabilistic model for unsupervised alignment of high-dimensional time-warped sequences based on the Dirichlet Process Mixture Model (DPMM). We follow the approach introduced in (Kazlauskaite, 2018) of simultaneously representing each data sequence as a composition of a true underlying function and a time-warping, both of which are modelled using Gaussian processes (GPs) (Rasmussen, 2005), and aligning the underlying functions using an unsupervised alignment method. In (Kazlauskaite, 2018) the alignment is performed using the GP latent variable model (GP-LVM) (Lawrence, 2005) as a model of sequences, while our main contribution is extending this approach to using DPMM, which allows us to align the sequences temporally and cluster them at the same time. We show that the DPMM achieves competitive results in comparison to the GP-LVM on synthetic and real-world data sets, and discuss the different properties of the estimated underlying functions and the time-warps favoured by these models."
+   venue="Neural Information Processing Systems (NIPS) Workshop on Bayesian Non-parametrics"
+   year="2018"
+   id="2018nips2"
+   url="https://arxiv.org/abs/1811.10689"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Bayesian Alignments of Warped Multi-Output Gaussian Processes"
+   authors="M. Kaiser, C. Otte, T. Runkler, C. H. Ek"
+   abstract="We propose a novel Bayesian approach to modelling nonlinear alignments of time series based on latent shared information. We apply the method to the real-world problem of finding common structure in the sensor data of wind turbines introduced by the underlying latent and turbulent wind field. The proposed model allows for both arbitrary alignments of the inputs and non-parametric output warpings to transform the observations. This gives rise to multiple deep Gaussian process models connected via latent generating processes. We present an efficient variational approximation based on nested variational compression and show how the model can be used to extract shared information between dependent time series, recovering an interpretable functional decomposition of the learning problem. We show results for an artificial data set and real-world data of two wind turbines."
+   venue="Neural Information Processing Systems (NIPS)"
+   year="2018"
+   id="2018nips"
+   url="https://arxiv.org/abs/1707.05534"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Gaussian Process Deep Belief Networks: A Smooth Generative Model of Shape with Uncertainty Propagation"
+   authors="A. di Martino, E. Bodin, C. H. Ek, N. D. Campbell"
+   abstract="The shape of an object is an important characteristic for many vision problems such as segmentation, detection and tracking. Being independent of appearance, it is possible to generalise to a large range of objects from only small amounts of data. However, shapes represented as silhouette images are challenging to model due to complicated likelihood functions leading to intractable posteriors. In this paper we present a generative model of shapes which provides allow dimensional latent encoding which importantly resides on a smooth manifold with respect to the silhouette images. The proposed model propagates uncertainty in a principled manner allowing it to learn from small amounts of data and providing predictions with associated uncertainty. We provide experiments that show how our proposed model provides favourable quantitative results compared with the state-of-the-art while simultaneously providing a representation that resides on a low-dimensional interpretable manifold."
+   venue="Asian Conference on Computer Vision"
+   year="2018"
+   id="2018accv"
+   url="https://arxiv.org/abs/1812.05477"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="DP-GP-LVM: A Bayesian Non-Parametric Model for Learning Multivariate Dependency Structures"
+   authors="A. Lawrence, C. H. Ek, N. D. F. Campbell"
+   abstract="We present a non-parametric Bayesian latent variable model capable of learning dependency structures across dimensions in a multivariate setting. Our approach is based on flexible Gaussian process priors for the generative mappings and interchangeable Dirichlet process priors to learn the structure. The introduction of the Dirichlet process as a specific structural prior allows our model to circumvent issues associated with previous Gaussian process latent variable models. Inference is performed by deriving an efficient variational bound on the marginal log-likelihood on the model."
+   venue="arXiv"
+   year="2018"
+   id="2018arxiv3"
+   url="https://arxiv.org/abs/1807.04833"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Model Inference with Stein Density Ratio Estimation"
+   authors="S. Liu, W. Jitkrittum, C. H. Ek"
+   abstract="The Kullback-Leilber divergence from model to data is a classic goodness of fit measure but can be intractable in many cases. In this paper, we estimate the ratio function between a data density and a model density with the help of Stein operator. The estimated density ratio allows us to compute the likelihood ratio function which is a surrogate to the actual Kullback-Leibler divergence from model to data. By minimizing this surrogate, we can perform model fitting and inference from either frequentist or Bayesian point of view. This paper discusses methods, theories and algorithms for performing such tasks. Our theoretical claims are verified by experiments and examples are given demonstrating the usefulness of our methods."
+   venue="arXiv"
+   year="2018"
+   id="2018arxiv2"
+   url="https://arxiv.org/abs/1805.07454"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Gaussian Process Latent Variable Alignment Learning"
+   authors="I. Kazlauskaite, C. H. Ek, N. D. F. Campbell"
+   abstract="  We present a model that can automatically learn alignments between high-dimensional data in an unsupervised manner. Learning alignments is an ill-constrained problem as there are many different ways of defining a good alignment. Our proposed method casts alignment learning in framework where both alignment and data is modeled simultaneously. We derive a probabilistic framework built on non-parametric priors that allows for flexible warpings while at the same time providing means to specify interpretable constraints. We show results on several datasets, including different motion capture sequences and show that the suggested model outperform the classical algorithmic approaches to the alignment task."
+   venue="arXiv"
+   year="2018"
+   id="2018arxiv1"
+   url="https://arxiv.org/pdf/1803.02603"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Perceptual Facial Expression Representation"
+   authors="O. Mikheeva, C. H. Ek, H. Kjellstrom"
+   abstract="Variational approximations are an attractive approach for inference of latent variables in unsupervised learning.   However,  they  are  often  computationally  intractable  when  faced  with  large  datasets. Recently, Variational Autoencoders (VAEs) Kingma and Welling [2014] have been proposed as a method to tackle this limitation.  Their methodology is based on formulating the approximating posterior distributions in terms of a deterministic relationship to observed data consequently the title “Auto-Encoding Variational Bayes”. Importantly, this is a decision regarding an approximate inference scheme that should not be confused with an auto-encoder as a model"
+   venue="IEEE International Conference on Automatic Face and Gesture Recognition"
+   year="2018"
+   id="2018fag"
+   url="http://www.nada.kth.se/~hedvig/publications/fg_18.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+** 2017
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="The Importance of Structure"
+   authors="C. H. Ek and D. Kragic"
+   abstract="Many tasks in robotics and computer vision are concerned with inferring a continuous or discrete state variable from observations and measurements from the environment. Due to the high-dimensional nature of the input data the inference is often cast as a two stage process: first a low-dimensional feature representation is extracted on which secondly a learning algorithm is applied. Due to the significant progress that have been achieved within the field of machine learning over the last decade focus have placed at the second stage of the inference process, improving the process by exploiting more advanced learning techniques applied to the same (or more of the same) data. We believe that for many scenarios significant strides in performance could be achieved by focusing on representation rather than aiming to alleviate inconclusive and/or redundant information by exploiting more advanced inference methods. This stems from the notion that; given the “correct” representation the inference problem becomes easier to solve. In this paper we argue that one important mode of information for many application scenarios is not the actual variation in the data but the rather the higher order statistics as the structure of variations. We will exemplify this through a set of applications and show different ways of representing the structure of data."
+   venue="Robotic Research"
+   year="2017"
+   id="2017roboticresearch"
+   url="https://link.springer.com/chapter/10.1007/978-3-319-29363-9_7"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Latent Structure Learning using Gaussian and Dirichlet Processes"
+   authors="A. Lawrence, C. H. Ek and N.D.F. Campbell"
+   abstract=""
+   venue="NIPS Workshops"
+   year="2017"
+   id="2017arxiv5"
+   url=""
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Nonparametric Inference for Auto-Encoding Variational Bayes"
+   authors="E. Bodin, I. Malik, C. H. Ek and N.D.F. Campbell"
+   abstract="Variational approximations are an attractive approach for inference of latent variables in unsupervised learning.   However,  they  are  often  computationally  intractable  when  faced  with  large  datasets. Recently, Variational Autoencoders (VAEs) Kingma and Welling [2014] have been proposed as a method to tackle this limitation.  Their methodology is based on formulating the approximating posterior distributions in terms of a deterministic relationship to observed data consequently the title “Auto-Encoding Variational Bayes”. Importantly, this is a decision regarding an approximate inference scheme that should not be confused with an auto-encoder as a model"
+   venue="NIPS Workshops"
+   year="2017"
+   id="2017arxiv4"
+   url="https://arxiv.org/abs/1707.05534"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Neural translation of musical style"
+   authors="I. Malik, C. H. Ek"
+   abstract="Music is an expressive form of communication often used to convey emotion in scenarios where words are not enough. Part of this information lies in the musical composition where well-defined language exists. However, a significant amount of information is added during a performance as the musician interprets the composition. The performer injects expressiveness into the written score through variations of different musical properties such as dynamics and tempo. In this paper, we describe a model that can learn to perform sheet music. Our research concludes that the generated performances are indistinguishable from a human performance, thereby passing a test in the spirit of a musical Turing test"
+   venue="NIPS Workshops"
+   year="2017"
+   id="2017arxiv2"
+   url="https://arxiv.org/abs/1708.03535"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Manifold Alignment Determination: finding correspondences across different data views"
+   authors="A. Damianou, N.D. Lawrence, C. H. Ek"
+   abstract="We present Manifold Alignment Determination (MAD), an algorithm for learning alignments between data points from multiple views or modalities. The approach is capable of learning correspondences between views as well as correspondences between individual data-points. The proposed method requires only a few aligned examples from which it is capable to recover a global alignment through a probabilistic model. The strong, yet flexible regularization provided by the generative model is sufficient to align the views. We provide experiments on both synthetic and real data to highlight the benefit of the proposed approach."
+   venue="arXiv"
+   year="2017"
+   id="2017arxiv1"
+   url="https://arxiv.org/abs/1701.03449"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Latent Gaussian Process Regression"
+   authors="E. Bodin, N.D.F. Campbell and C. H. Ek"
+   abstract="We introduce Latent Gaussian Process Regression which is a latent variable extension allowing modelling of non-stationary processes using stationary GP priors. The approach is built on extending the input space of a regression problem with a latent variable that is used to modulate the covariance function over the input space. We show how our approach can be used to model non-stationary processes but also how multi-modal or non-functional processes can be described where the input signal cannot fully disambiguate the output. We exemplify the approach on a set of synthetic data and provide results on real data from geostatistics."
+   venue="arXiv"
+   year="2017"
+   id="2017nips"
+   url="https://arxiv.org/abs/1707.05534"
+   bibtex=""
+   %}
+   #+END_EXPORT
+** 2016
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Learning warpings from latent space structures"
+   authors="I. Kazlauskaite, C. H. Ek, N. Campbell"
+   abstract=""
+   venue="NIPS, Workshop on Learning in High-dimensions with Structure"
+   year="2016"
+   id="2016nips1"
+   url=""
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Unsupervised Learning with Imbalanced Data via Structure Consolidation Latent Variable Model"
+   authors="F. Yousefi, Z. Dai, C. H. Ek, N. D. Lawrence"
+   abstract="Unsupervised learning on imbalanced data is challenging because, when given imbalanced data, current model is often dominated by the major category and ignores the categories with small amount of data. We develop a latent variable model that can cope with imbalanced data by dividing the latent space into a shared space and a private space. Based on Gaussian Process Latent Variable Models, we propose a new kernel formulation that enables the separation of latent space and derives an efficient variational inference method. The performance of our model is demonstrated with an imbalanced medical image dataset."
+   venue="International Conference on Learning Representations, Workshop-track"
+   year="2016"
+   id="2016iclr"
+   url="https://arxiv.org/abs/1607.00067"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Diagnostic Prediction Using Discomfort Drawings with IBTM"
+   authors="C. Zhang, H. Kjellstrom, C. H. Ek, B C. Bertilson"
+   abstract="In this paper, we explore the possibility to apply machine learning to make diagnostic predictions using discomfort drawings. A discomfort drawing is an intuitive way for patients to express discomfort and pain related symptoms. These drawings have proven to be an effective method to collect patient data and make diagnostic decisions in real-life practice. A dataset from real-world patient cases is collected for which medical experts provide diagnostic labels. Next, we use a factorized multimodal topic model, Inter-Battery Topic Model (IBTM), to train a system that can make diagnostic predictions given an unseen discomfort drawing. The number of output diagnostic labels is determined by using mean-shift clustering on the discomfort drawing. Experimental results show reasonable predictions of diagnostic labels given an unseen discomfort drawing. Additionally, we generate synthetic discomfort drawings with IBTM given a diagnostic label, which results in typical cases of symptoms. The positive result indicates a significant potential of machine learning to be used for parts of the pain diagnostic process and to be a decision support system for physicians and other health care personnel."
+   venue="Machine Learning and Healthcare Conference"
+   year="2016"
+   id="2016mlmh1"
+   url="https://arxiv.org/abs/1607.08206"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Active Exploration Using Gaussian Random Fields and Gaussian Process Implicit Surfaces"
+   authors="S Caccamo, Y Bekiroglu, C H Ek, D Kragic"
+   abstract="In this work we study the problem of exploring surfaces and building compact 3D representations of the environment surrounding a robot through active perception. We propose an online probabilistic framework that merges visual and tactile measurements using Gaussian Random Field and Gaussian Process Implicit Surfaces. The system investigates incomplete point clouds in order to find a small set of regions of interest which are then physically explored with a robotic arm equipped with tactile sensors. We show experimental results obtained using a PrimeSense camera, a Kinova Jaco2 robotic arm and Optoforce sensors on different scenarios. We then demostrate how to use the online framework for object detection and terrain classification."
+   venue="IEEE/RJS International Conference on Intelligent Robots and Systems"
+   year="2016"
+   id="2016iros1"
+   url="http://ieeexplore.ieee.org/document/7759112/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Inter-Battery Topic Representation Learning"
+   authors="C. Zhan, H. Kjellström, C. H. Ek"
+   abstract="In this paper, we present the Inter-Battery Topic Model (IBTM). Our approach extends traditional topic models by learning a factorized latent variable representation. The structured representation leads to a model that marries benefits traditionally associated with a discriminative approach, such as feature selection, with those of a generative model, such as principled regularization and ability to handle missing data. The factorization is provided by representing data in terms of aligned pairs of observations as different views. This provides means for selecting a representation that separately models topics that exist in both views from the topics that are unique to a single view. This structured consolidation allows for efficient and robust inference and provides a compact and efficient representation. Learning is performed in a Bayesian fashion by maximizing a rigorous bound on the log-likelihood. Firstly, we illustrate the benefits of the model on a synthetic dataset,. The model is then evaluated in both uni- and multi-modality settings on two different classification tasks with off-the-shelf convolutional neural network (CNN) features which generate state-of-the-art results with extremely compact representations."
+   venue="European Conference on Computer Vision (ECCV)"
+   year="2016"
+   id="2016eccv"
+   url="https://arxiv.org/abs/1605.06155"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Probabilistic consolidation of grasp experience"
+   authors="Y Bekiroglu, A Damianou, R Detry, J. A. Stork, D Kragic, C. H. Ek"
+   abstract="We present a probabilistic model for joint representation of several sensory modalities and action parameters in a robotic grasping scenario. Our non-linear probabilistic latent variable model encodes relationships between grasp-related parameters, learns the importance of features, and expresses confidence in estimates. The model learns associations between stable and unstable grasps that it experiences during an exploration phase. We demonstrate the applicability of the model for estimating grasp stability, correcting grasps, identifying objects based on tactile imprints and predicting tactile imprints from object-relative gripper poses. We performed experiments on a real platform with both known and novel objects, i.e., objects the robot trained with, and previously unseen objects. Grasp correction had a 75% success rate on known objects, and 73% on new objects. We compared our model to a traditional regression model that succeeded in correcting grasps in only 38% of cases."
+   venue="IEEE International Conference on Robotics and Automation (ICRA)"
+   year="2016"
+   id="2016icra"
+   url=""
+   bibtex="http://ieeexplore.ieee.org/document/7487133/"
+   %}
+   #+END_EXPORT
+** 2015
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path="bin/2015/pub_pathkernel.png"
+   title="The Path Kernel: A Novel Kernel for Sequential Data"
+   authors="A. Baisero, F. T. Pokorny and C. H. Ek"
+   abstract="We define a novel kernel function for finite sequences of arbitrary length which we call the path kernel. We evaluate this kernel in a classification scenario using synthetic data sequences and show that our kernel can outperform state of the art sequential similarity measures. Furthermore, we find that, in our experiments, a clustering of data based on the path kernel results in much improved interpretability of such clusters compared to alternative approaches such as dynamic time warping or the global alignment kernel."
+   venue="Pattern Recognition Applications and Methods"
+   year="2015"
+   id="2015path1"
+   url="https://link.springer.com/chapter/10.1007/978-3-319-12610-4_5"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path="bin/2015/tro_bn.jpeg"
+   title="Task-based Robot Grasp Planning using Probabilistic Inference"
+   authors="D. Song, C. H. Ek, K. Huebner, and D. Kragic"
+   abstract="Grasping and manipulation of everyday objects in a goal-directed manner is an important ability of a service robot. The robot needs to reason about task requirements and ground these in the sensorimotor information. Grasping and interaction with objects are challenging in real-world scenarios where sensorimotor uncertainty is prevalent. This paper presents a probabilistic framework for representation and modeling of robot grasping tasks. The framework consists of Gaussian mixture models for generic data discretization, and discrete Bayesian networks for encoding the probabilistic relations among various task-relevant variables including object and action features as well as task constraints. We evaluate the framework using a grasp database generated in a simulated environment including a human and two robot hand models. The generative modeling approach allows prediction of grasping tasks given uncertain sensory data, as well as object and grasp selection in a task-oriented manner. Furthermore, the graphical model framework provides insights into dependencies between variables and features relevant for object grasping."
+   venue="IEEE Transactions on Robotics"
+   year="2015"
+   id="2015trans1"
+   url="http://ieeexplore.ieee.org/abstract/document/7078848/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Manifold Alignment Determination"
+   authors="A. Damianou, N. Lawrence, C. Ek"
+   abstract="We present Manifold Alignment Determination (MAD), an algorithm for learningalignments between data points from multiple views or modalities. The approachis capable of learning correspondences between views as well as correspondencesbetween individual data-points. The proposed method requires only a few alignedexamples from which it is capable to recover a global alignment through a probabilisticmodel. The strong, yet flexible regularization provided by the generativemodel is sufficient to align the views. We provide experiments on both synthetic and real data to highlight the benefit of the proposed approach."
+   venue="NIPS workshop on Multi-Modal Machine Learning"
+   year="2015"
+   id="2015nips"
+   url="http://staffwww.dcs.shef.ac.uk/people/A.Damianou/papers/DamianouLawrenceEk_MAD_NIPS15.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path="bin/2015/psr.png"
+   title="Learning Predictive State Representation for In-Hand Manipulation"
+   authors="J. A. Stork, C. H. Ek, Y. Bekiroğlu, and D. Kragic" 
+   abstract="We study the use of Predictive State Representation (PSR) for modeling of an in-hand manipulation task through interaction with the environment. We extend the original PSR model to a new domain of in-hand manipulation and address the problem of partial observability by introducing new kernel- based features that integrate both actions and observations. The model is learned directly from haptic data and is used to plan series of actions that rotate the object in the hand to a specific configuration by pushing it against a table. Further, we analyze the model’s belief states using additional visual data and enable planning of action sequences when the observations are ambiguous. We show that the learned representation is geo- metrically meaningful by embedding labeled action-observation traces. Suitability for planning is demonstrated by a post-grasp manipulation example that changes the object state to multiple specified target configurations."
+   venue="IROS"
+   year="2015"
+   id="2015iros1"
+   url="http://ieeexplore.ieee.org/document/7139641/"
+   bibtex="/bibtex/jmlr.bib"
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="A top-down approach for a synthetic autobiographical memory system"
+   authors="A Damianou, C. H. Ek, L Boorman, ND Lawrence, TJ Prescott"
+   abstract="Autobiographical memory (AM) refers to the organisation of one’s experience into a coherent narrative. The exact neural mechanisms responsible for the manifestation of AM in humans are unknown. On the other hand, the field of psychology has provided us with useful understanding about the functionality of a bio-inspired synthetic AM (SAM) system, in a higher level of description. This paper is concerned with a top-down approach to SAM, where known components and organisation guide the architecture but the unknown details of each module are abstracted. By using Bayesian latent variable models we obtain a transparent SAM system with which we can interact in a structured way. This allows us to reveal the properties of specific sub-modules and map them to functionality observed in biological systems. The top-down approach can cope well with the high performance requirements of a bio-inspired cognitive system. This is demonstrated in experiments using faces data."
+   venue="Conference on Biomimetic and Biohybrid Systems"
+   year="2015"
+   id="2015bio"
+   url="http://link.springer.com/chapter/10.1007%2F978-3-319-22979-9_28"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path="bin/2015/finalgrasps.jpg"
+   title="Learning Human Priors for Task-Constraints Grasping"
+   authors="M. Hjelm, R. Detry, C. H. Ek, D. Kragic "
+   abstract="In this paper we formulate task based robotic grasping as a feature learning problem. Using a human demonstrator to provide examples of grasps associatedwith a specific task we learn a representation where similarity in task is reflected by similarity in feature. Grasps for an observed task can besynthesized, on previously unseen objects, by matching to learned instances in the transformed feature space. We show on a real robot how our approach is able to synthesize task specific grasps using previously observed instances of task specific grasps."
+   venue="International Conference on Vision Systems"
+   year="2015"
+   id="2015icvs1"
+   url="http://link.springer.com/chapter/10.1007/978-3-319-20904-3_20"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Persistent evidence of local image properties in generic convnets"
+   authors="A. S Razavian, H Azizpour, A Maki, J Sullivan, C. H. Ek, S Carlsson"
+   abstract="Supervised training of a convolutional network for object classification should make explicit any information related to the class of objects and disregard any auxiliary information associated with the capture of the image or the variation within the object class. Does this happen in practice? Although this seems to pertain to the very final layers in the network, if we look at earlier layers we find that this is not the case. In fact, strong spatial information is implicit. This paper addresses this, in particular, exploiting the image representation at the first fully connected layer, i.e. the global image descriptor which has been recently shown to be most effective in a range of visual recognition tasks. We empirically demonstrate evidences for the finding in the contexts of four different tasks: 2d landmark detection, 2d object keypoints prediction, estimation of the RGB values of input image, and recovery of semantic label of each pixel. We base our investigation on a simple framework with ridge rigression commonly across these tasks, and show results which all support our insight. Such spatial information can be used for computing correspondence of landmarks to a good accuracy, but should potentially be useful for improving the training of the convolutional nets for classification purposes."
+   venue="Scandinavian Conference on Image Analysis"
+   year="2015"
+   id="2015cnn"
+   url="http://link.springer.com/chapter/10.1007%2F978-3-319-19665-7_21"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Learning Predictive State Representations for Planning"
+   authors="J. A. Stork, C. H. Ek, Y Bekiroglu, D Kragic"
+   abstract="Predictive State Representations (PSRs) allow modeling of dynamical systems directly in observables and without relying on latent variable representations. A problem that arises from learning PSRs is that it is often hard to attribute semantic meaning to the learned representation. This makes generalization and planning in PSRs challenging. In this paper, we extend PSRs and introduce the notion of PSRs that include prior information (P-PSRs) to learn representations which are suitable for planning and interpretation. By learning a low-dimensional embedding of test features we map belief points of similar semantic to the same region of a subspace. This facilitates better generalization for planning and semantical interpretation of the learned representation. In specific, we show how to overcome the training sample bias and introduce feature selection such that the resulting representation emphasizes observables related to the planning task. We show that our P-PSRs result in qualitatively meaningful representations and present quantitative results that indicate improved suitability for planning."
+   venue="IEEE/RSJ International Conference on Intelligent Robots and Systems"
+   year="2015"
+   id="2015iros"
+   url="http://ieeexplore.ieee.org/document/7353855/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+** 2014
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path="bin/2014/pub_plosone.png"
+   title="Comparing distributions of color words: pitfalls and metric choices"
+   authors="M.Vejdemo-Johansson, S. Vejdemo, C.H. Ek"
+   abstract="Computational methods have started playing a significant role in semantic analysis. One particularly accessible area for developing good computationalmethods for linguistic semantics is in color naming, where perceptual dissimilarity measures provide a geometric setting for the analyses. This setting hasbeen studied first by Berlin & Kay in 1969, and then later on by a large data collection effort: the World Color Survey (WCS). From the WCS, a dataset oncolor naming by 2 616 speakers of 110 different languages is made available for further research. In the analysis of color naming from WCS, however, thechoice of analysis method is an important factor of the analysis. We demonstrate concrete problems with the choice of metrics made in recent analyses of WCSdata, and offer approaches for dealing with the problems we can identify. Picking a metric for the space of color naming distributions that ignoresperceptual distances between colors assumes a decorrelated system, where strong spatial correlations in fact exist. We can demonstrate that thecorresponding issues are significantly improved when using Earth Mover’s Distance, or Quadratic x-square Distance, and we can approximate these solutions with a kernel-based analysis method."
+   venue="Public Library of Science PLOS One"
+   year="2014"
+   id="2014plos1"
+   url="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089184"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path="bin/2014/pub_automaticrobotics.jpeg"
+   title="Learning Object, Grasping and Manipulation Activities using Hierarchical HMMs"
+   authors="M. Patel, J. V. Miro, D. Kragic, C. H. Ek, and G. Dissanayake"
+   abstract="This article presents a probabilistic algorithm for representing and learning complex manipulation activities performed by humans in everyday life. The work builds on the multi-level Hierarchical Hidden Markov Model (HHMM) framework which allows decomposition of longer-term complex manipulation activities into layers of abstraction whereby the building blocks can be represented by simpler action modules called action primitives. This way, human task knowledge can be synthesised in a compact, effective representation suitable, for instance, to be subsequently transferred to a robot for imitation. The main contribution is the use of a robust framework capable of dealing with the uncertainty or incomplete data inherent to these activities, and the ability to represent behaviours at multiple levels of abstraction for enhanced task generalisation. Activity data from 3D video sequencing of human manipulation of different objects handled in everyday life is used for evaluation. A comparison with a mixed generative-discriminative hybrid model HHMM/SVM (support vector machine) is also presented to add rigour in highlighting the benefit of the proposed approach against comparable state of the art techniques."
+   venue="Autonomous Robots"
+   year="2014"
+   id="2014autonomous1"
+   url="http://link.springer.com/article/10.1007/s10514-014-9392-1"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Recognizing Object Affordances in Terms of Spatio-Temporal Object-Object Relationships"
+   authors="A. Pieropan, C. H. Ek, and H. Kjellström"
+   abstract="In this paper we describe a probabilistic framework that models the interaction between multiple objects in a scene. We present a spatio-temporal feature encoding pairwise interactions between each object in the scene. By the use of a kernel representation we embed object interactions in a vector space which allows us to define a metric comparing interactions of different temporal extent. Using this metric we define a probabilistic model which allows us to represent and extract the affordances of individual objects based on the structure of their interaction. In this paper we focus on the presented pairwise relationships but the model can naturally be extended to incorporate additional cues related to a single object or multiple objects. We compare our approach with traditional kernel approaches and show a significant improvement."
+   venue="IEEE-RAS International Conference on Humanoid Robots"
+   year="2014"
+   id="2014humanoids"
+   url="http://ieeexplore.ieee.org/document/7041337/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="A topological framework for training Latent Variable Models"
+   authors="H. M. Afkham, C. H. Ek, and S. Carlsson"
+   abstract="We discuss the properties of a class of latent variable models that assumes each labeled sample is associated with a set of different features, with no prior knowledge of which feature is the most relevant feature to be used. Deformable-Part Models (DPM) can be seen as good examples of such models. These models are usually considered to be expensive to train and very sensitive to the initialization. In this paper, we focus on the learning of such models by introducing a topological framework and show how it is possible to both reduce the learning complexity and produce more robust decision boundaries. We will also argue how our framework can be used for producing robust decision boundaries without exploiting the dataset bias or relying on accurate annotations. To experimentally evaluate our method and compare with previously published frameworks, we focus on the problem of image classification with object localization. In this problem, the correct location of the objects is unknown, during both training and testing stages, and is considered as a latent variable."
+   venue="International Conference on Pattern Recognition"
+   year="2014"
+   id="2014icpr"
+   url="http://dl.acm.org/citation.cfm?id=2704057"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Representations for Cross-task, Cross-object Grasp Transfer"
+   authors="M. Hjelm, R. Detry, C. H. Ek, and D. Kragic"
+   abstract="We address the problem of transferring grasp knowledge across objects and tasks. This means dealing with two important issues: 1) the induction of possible transfers, i.e., whether a given object affords a given task, and 2) the planning of a grasp that will allow the robot to fulfill the task. The induction of object affordances is approached by abstracting the sensory input of an object as a set of attributes that the agent can reason about through similarity and proximity. For grasp execution, we combine a part-based grasp planner with a model of task constraints. The task constraint model indicates areas of the object that the robot can grasp to execute the task. Within these areas, the part-based planner finds a hand placement that is compatible with the object shape. The key contribution is the ability to transfer task parameters across objects while the part-based grasp planner allows for transferring grasp information across tasks. As a result, the robot is able to synthesize plans for previously unobserved task/object combinations. We illustrate our approach with experiments conducted on a real robot."
+   venue="IEEE International Conference on Robotics and Automation"
+   year="2014"
+   id="2014icra"
+   url="http://ieeexplore.ieee.org/document/6907697/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Initialization framework for latent variable models"
+   authors="H. M. Afkham, C. H. Ek, and S. Carlsson"
+   abstract="In this paper, we discuss the properties of a class of latent variable models that assumes each labeled sample is associated with set of different features, with no prior knowledge of which feature is the most relevant feature to be used. Deformable-Part Models (DPM) can be seen as good example of such models. While Latent SVM framework (LSVM) has proven to be an efficient tool for solving these models, we will argue that the solution found by this tool is very sensitive to the initialization. To decrease this dependency, we propose a novel clustering procedure, for these problems, to find cluster centers that are shared by several sample sets while ignoring the rest of the cluster centers. As we will show, these cluster centers will provide a robust initialization for the LSVM framework."
+   venue="International Conference on Pattern Recognition Applications and Methods"
+   year="2014"
+   id="2014icpram1"
+   url="http://dl.acm.org/citation.cfm?id=2970996"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Gradual improvement of image descriptor quality"
+   authors="H. M. Afkham, C. H. Ek, and S. Carlsson"
+   abstract="In this paper, we propose a framework to gradually improve the quality of an already existing image descriptor. The descriptor used in this paper uses the response of a series of discriminative components for summarizing each image. As we will show, this descriptor has an ideal form in which all categories become linearly separable. While, reaching this form is not feasible, we will argue by replacing a small fraction of the components, it is possible to obtain a descriptor which is, on average, closer to this ideal form. To do so, we identify which components do not contribute to the quality of the descriptor and replace them with more robust components. Here, a joint feature selection method is used to find more robust components. As our experiments show, this change directly reflects in the capability of the resulting descriptor in discriminating between different categories."
+   venue="International Conference on Pattern Recognition Applications and Methods"
+   year="2014"
+   id="2014icpram2"
+   url="http://dl.acm.org/citation.cfm?id=2970997"
+   bibtex=""
+   %}
+   #+END_EXPORT
+** 2013
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path="bin/2013/extracting_postural.jpg"
+   title="Extracting Postural Synergies for Robotic Grasping"
+   authors="J. Romero, T. Feix, C. H. Ek, H. Kjellström, and D. Kragic"
+   abstract="We address the problem of representing and encoding human hand motion data using nonlinear dimensionality reduction methods. We build our work on the notionof postural synergies being typically based on a linear embedding of the data. In addition to addressing the encoding of postural synergies using nonlinearmethods, we relate our work to control strategies of combined reaching and grasping movements. We show the drawbacks of the (commonly made) causalityassumption and propose methods that model the data as being generated from an inferred latent mani- fold to cope with the problem. Another importantcontribution is a thorough analysis of the parameters used in the employed dimen- sionality reduction techniques. Finally, we provide an experimental evaluation that shows how the proposed methods outperform the standard techniques, both in terms of recognition and generation of motion patterns. "
+   venue="IEEE Transactions on Robotics"
+   year="2013"
+   id="2013tro1"
+   url="http://ieeexplore.ieee.org/document/6564441/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path="bin/2013/nonparametric.jpg"
+   title="Non-Parametric Hand Pose Estimation with Object Context"
+   authors="J. Romero, H. Kjellström, C. H. Ek, and D. Kragic"
+   abstract="In the spirit of recent work on contextual recognition and estimation, we present a method for estimating the pose of human hands, employing informationabout the shape of the object in the hand. Despite the fact that most applications of human hand tracking involve grasping and manipulation of objects, themajority of methods in the literature assume a free hand, isolated from the surrounding environment. Occlusion of the hand from grasped objects does in factoften pose a severe challenge to the estimation of hand pose. In the presented method, object occlusion is not only compensated for, it contributes to thepose estimation in a contextual fashion; this without an explicit model of object shape. Our hand tracking method is non-parametric, performing a nearestneighbor search in a large database (.. entries) of hand poses with and without grasped objects. The system that operates in real time, is robust to selfocclusions, object occlu- sions and segmentation errors, and provides full hand pose reconstruction from monocular video. Temporal consistency in hand poseis taken into account, without explicitly tracking the hand in the high-dim pose space. Experiments show the non-parametric method to outperform other state of the art regression methods, while operating at a significantly lower computational cost than comparable model-based hand tracking methods. "
+   venue="Image and Vision"
+   year="2013"
+   id="2013imageandvision1"
+   url="http://www.sciencedirect.com/science/article/pii/S0262885613000656"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Supervised Hierarchical Dirichlet Processwith Variational Inference"
+   authors="C. Zhang, C. H. Ek, X. Gratal, F. T. Pokorny, and H. Kjellström"
+   abstract="We present an extension to the Hierarchical Dirichlet Process (HDP), which allows for the inclusion of supervision. Our model marries the non-parametric benefits of HDP with those of Supervised Latent Dirichlet Allocation (SLDA) to enable learning the topic space directly from data while simultaneously including the labels within the model. The proposed model is learned using variational inference which allows for the efficient use of a large training dataset. We also present the online version of variational inference, which makes the method scalable to very large datasets. We show results comparing our model to a traditional supervised parametric topic model, SLDA, and show that it outperforms SLDA on a number of benchmark datasets."
+   venue="ICCV Workshop on Graphical Models and Inference"
+   year="2013"
+   id="2013iccv"
+   url="http://ieeexplore.ieee.org/document/6755906/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Extracting Essential Local Object Characteristics for 3D Object Categorization"
+   authors="M. Madry, H. M. Afkham, C. H. Ek, S. Carlsson, and D. Kragic"
+   abstract="Most object classes share a considerable amount of local appearance and often only a small number of features are discriminative. The traditional approach to represent an object is based on a summarization of the local characteristics by counting the number of feature occurrences. In this paper we propose the use of a recently developed technique for summarizations that, rather than looking into the quantity of features, encodes their quality to learn a description of an object. Our approach is based on extracting and aggregating only the essential characteristics of an object class for a task. We show how the proposed method significantly improves on previous work in 3D object categorization. We discuss the benefits of the method in other scenarios such as robot grasping. We provide extensive quantitative and qualitative experiments comparing our approach to the state of the art to justify the described approach."
+   venue="IEEE/RSJ International Conference on Intelligent Robots and Systems"
+   year="2013"
+   id="2013iros1"
+   url="http://ieeexplore.ieee.org/document/6696670/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Sparse summarization of robotic grasp data"
+   authors="M. Hjelm, C. H. Ek, R. Detry, H. Kjellström and D. Kragic"
+   abstract="We propose a new approach for learning a summarized representation of high dimensional continuous data. Our technique consists of a Bayesian non-parametric model capable of encoding high-dimensional data from complex distributions using a sparse summarization. Specifically, the method marries techniques from probabilistic dimensionality reduction and clustering. We apply the model to learn efficient representations of grasping data for two robotic scenarios."
+   venue="IEEE International Conference on Robotics and Automation"
+   year="2013"
+   id="2013icra3"
+   url="http://ieeexplore.ieee.org/document/6630707/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Generalizing Task Parameters Through Modularization"
+   authors="R. Detry, M. Hjelm, C. H. Ek, and D. Kragic"
+   abstract="We address the problem of generalizing manipulative actions across different tasks and objects. Our robotic agent acquires task-oriented skills from a teacher, and it abstracts skill parameters away from the specificity of the objects and tools used by the teacher. This process enables the transfer of skills to novel objects. Our method relies on the modularization of a task’s representation. Through modularization, we associate each action parameter to a narrow visual modality, therefore facilitating transfers across different objects or tasks. We present a simple experiment where the robot transfers task parameters across three tasks and three objects."
+   venue="International Conference on Robotics and Automation Workshop on Autonomous Learning"
+   year="2013"
+   id="2013icra2"
+   url="http://www.renaud-detry.net/publications/Detry-2013-ALW.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Qualitative Vocabulary based Descriptor"
+   authors="H. M. Afkham, C. H. Ek, S Carlsson"
+   abstract="Creating a single feature descriptors from a collection of feature responses is an often occurring task. As such the bag-of-words descriptors have been very successful and applied to data from a large range of different domains. Central to this approach is making an association of features to words. In this paper we present a new and novel approach to feature to word association problem. The proposed method creates a more robust representation when data is noisy and requires less words compared to the traditional methods while retaining similar performance. We experimentally evaluate the method on a challenging image classification data-set and show significant improvement to the state of the art."
+   venue="International Conference on Pattern Recognition Applications and Methods"
+   year="2013"
+   id="2013icpram1"
+   url="https://www.semanticscholar.org/paper/Qualitative-Vocabulary-based-Descriptor-Afkham-Ek/5354d877a420cabe5904d04e226405776e712761"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Language for Learning Complex Human-Object Interactions"
+   authors="M. Patel, C. H. Ek, N. Kyriazis, A. Argyros, J. V. Miro, D. Kragic"
+   abstract="In this paper we use a Hierarchical Hidden Markov Model (HHMM) to represent and learn complex activities/task performed by humans/robots in everyday life. Action primitives are used as a grammar to represent complex human behaviour and learn the interactions and behaviour of human/robots with different objects. The main contribution is the use of a probabilistic model capable of representing behaviours at multiple levels of abstraction to support the proposed hypothesis. The hierarchical nature of the model allows decomposition of the complex task into simple action primitives. The framework is evaluated with data collected for tasks of everyday importance performed by a human user."
+   venue="IEEE International Conference on Robotics and Automation"
+   year="2013"
+   id="2013icra4"
+   url="http://ieeexplore.ieee.org/document/6631291/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Learning a Dictionary of Prototypical Grasp-predicting Parts from Grasping Experience"
+   authors="R. Detry, C. H. Ek, M. Madry, J. Piater, D. Kragic"
+   abstract="We present a real-world robotic agent that is capable of transferring grasping strategies across objects that share similar parts. The agent transfers grasps across objects by identifying, from examples provided by a teacher, parts by which objects are often grasped in a similar fashion. It then uses these parts to identify grasping points onto novel objects. We focus our report on the definition of a similarity measure that reflects whether the shapes of two parts resemble each other, and whether their associated grasps are applied near one another. We present an experiment in which our agent extracts five prototypical parts from thirty-two real-world grasp examples, and we demonstrate the applicability of the prototypical parts for grasping novel objects."
+   venue="IEEE International Conference on Robotics and Automation"
+   year="2013"
+   id="2013icra5"
+   url="http://ieeexplore.ieee.org/document/6630635/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Functional Object Descriptors for Human Activity Modeling"
+   authors="A. Pieropan, C. H. Ek and H. Kjellström"
+   abstract="The ability to learn from human demonstration is essential for robots in human environments. The activity models that the robot builds from observation must take both the human motion and the objects involved into account. Object models designed for this purpose should reflect the role of the object in the activity - its function, or affordances. The main contribution of this paper is to represent object directly in terms of their interaction with human hands, rather than in terms of appearance. This enables the direct representation of object affordances/function, while being robust to intra-class differences in appearance. Object hypotheses are first extracted from a video sequence as tracks of associated image segments. The object hypotheses are encoded as strings, where the vocabulary corresponds to different types of interaction with human hands. The similarity between two such object descriptors can be measured using a string kernel. Experiments show these functional descriptors to capture differences and similarities in object affordances/function that are not represented by appearance."
+   venue="IEEE International Conference on Robotics and Automation"
+   year="2013"
+   id="2013icra6"
+   url="http://ieeexplore.ieee.org/document/6630736/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Factorized Topic Models"
+   authors="C. Zhang, C. H. Ek, and H. Kjellström"
+   abstract="In this paper we present a modification to a latent topic model, which makes the model exploit supervision to produce a factorized representation of the observed data. The structured parameterization separately encodes variance that is shared between classes from variance that is private to each class by the introduction of a new prior over the topic space. The approach allows for a more eff{}icient inference and provides an intuitive interpretation of the data in terms of an informative signal together with structured noise. The factorized representation is shown to enhance inference performance for image, text, and video classification."
+   venue="International Conference on Representation Learning"
+   year="2013"
+   id="2013iclr1"
+   url="https://arxiv.org/abs/1301.3461"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Inferring Hand Pose: A Comparative Study"
+   authors="A. T. Sridatta, C. H. Ek, H. Kjellström"
+   abstract="Hand pose estimation from video is essential for a number of applications such as automatic sign language recognition and robot learning from demonstration. However, hand pose estimation is made difficult by the high degree of articulation of the hand; a realistic hand model is described with at least 35 dimensions, which means that it can assume a wide variety of poses, and there is a very high degree of self occlusion for most poses. Furthermore, different parts of the hand display very similar visual appearance; it is difficult to tell fingers apart in video. These properties of hands put hard requirements on visual features used for hand pose estimation and tracking. In this paper, we evaluate three different state-of-the-art visual shape descriptors, which are commonly used for hand and human body pose estimation. We study the nature of the mappings from the hand pose space to the feature spaces spanned by the visual descriptors, in terms of the smoothness, discriminability, and generativity of the pose-feature mappings, as well as their robustness to noise in terms of these properties. Based on this, we give recommendations on in which types of applications each visual shape descriptor is suitable."
+   venue="IEEE International Conference on Automatic Face and Gesture Recognition"
+   year="2013"
+   id="2013face"
+   url="http://ieeexplore.ieee.org/document/6553698/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="The Path Kernel"
+   authors="A. Baisero, F. T. Pokorny , D. Kragic, C. H. Ek"
+   abstract="Kernel methods have been used very successfully to classify data in various application domains. Traditionally, kernels have been constructed mainly for vectorial data defined on a specific vector space. Much less work has been addressing the development of kernel functions for non-vectorial data. In this paper, we present a new kernel for encoding sequential data. We present our results comparing the proposed kernel to the state of the art, showing a significant improvement in classification and a much improved robustness and interpretability."
+   venue="International Conference on Pattern Recognition Applications and Methods"
+   year="2013"
+   id="2013icpram2"
+   url="http://www.csc.kth.se/~fpokorny/static/publications/baisero2013a.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+** 2012
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path="bin/2012/pub_handmetric.png"
+   title="A Metric for Comparing the Anthropomorphic Motion Capability of Artificial Hands"
+   authors="T. Feix, J. Romero, C. H. Ek, H. B. Schmiedmayer, and D. Kragic"
+   abstract="We propose a metric for comparing the anthropomorphic motion capability of robotic and prosthetic hands. The metric is based on the evaluation of how manydifferent postures or con- figurations a hand can perform by studying the reachable set of fingertip poses. To define a benchmark for comparison, we firstgenerate data with human subjects based on an extensive grasp taxonomy. We then develop a methodology for comparison using generative, nonlineardimensionality reduction techniques. We as- sess the performance of different hands with respect to the human hand and with respect to each other. The method can be used to compare other types of kinematic structures."
+   venue="IEEE Transactions on Robotics"
+   year="2012"
+   id="2012_tro"
+   url="http://ieeexplore.ieee.org/document/6313928/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Persistent Homology for Learning Densities with Bounded Support"
+   authors="F. T. Pokorny , C. H. Ek, H. Kjellström, D. Kragic"
+   abstract="We present a novel method for learning densities with bounded support which enables us to incorporate ‘hard’ topological constraints. In particular, we show how emerging techniques from computational algebraic topology and the notion of persistent homology can be combined with kernel-based methods from machine learning for the purpose of density estimation. The proposed formalism facilitates learning of models with bounded support in a principled way, and – by incorporating persistent homology techniques in our approach – we are able to encode algebraic-topological constraints which are not addressed in current state of the art probabilistic models. We study the behaviour of our method on two synthetic examples for various sample sizes and exemplify the benefits of the proposed approach on a real-world dataset by learning a motion model for a race car. We show how to learn a model which respects the underlying topological structure of the racetrack, constraining the trajectories of the car."
+   venue="Neural Information Processing Systems"
+   year="2012"
+   id="2012nips1"
+   url="https://papers.nips.cc/paper/4711-persistent-homology-for-learning-densities-with-bounded-support.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Topological Constraints and Kernel based Density Estimation"
+   authors="F. T. Pokorny , C. H. Ek, H. Kjellström, D. Kragic"
+   abstract="This extended abstract1 explores the question of how to estimate a probability distribution from a finite number of samples when information about the topology of the support region of an underlying density is known. This workshop contribution is a continuation of our recent work [1] combining persistent homology and kernel-based density estimation for the first time and in which we explored an approach capable of incorporating topological constraints in bandwidth selection. We report on some recent experiments with high-dimensional motion capture data which show that our method is applicable even in high dimensions and develop our ideas for potential future applications of this framework."
+   venue="Neural Information Processing Systems Workshop on Algebraic Topology and Machine Learning"
+   year="2012"
+   id="2012nips2"
+   url="http://www.cs.cmu.edu/~sbalakri/Topology_final_versions/fpokorny_final.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title=" “On-line Learning of Temporal State Models for Flexible Objects"
+   authors="N. Bergström, C. H. Ek, D. Kragic, Y. Yamakawa, T. Senoo, M. Ishikawa"
+   abstract="State estimation and control are intimately related processes in robot handling of flexible and articulated objects. While for rigid objects, we can generate a CAD model beforehand and a state estimation boils down to estimation of pose or velocity of the object, in case of flexible and articulated objects, such as a cloth, the representation of the object's state is heavily dependent on the task and execution. For example, when folding a cloth, the representation will mainly depend on the way the folding is executed. In this paper, we address the problem of learning a temporal object model from observations generated during task execution. We use the case of dynamic cloth folding as a proof-of-concept for our methodology. In cloth folding, the most important information is contained in the temporal structure of the data requiring appropriate representation of the observations, fast state estimation and a suitable prediction mechanism. Our approach is realized through efficient implementation of feature extraction and a generative process model, exploiting recent hardware advances in conjunction with principled probabilistic models. The model is capable of representing the temporal structure of the data and it is robust to noise in the observations. We present results exploiting our model to classify the success of a folding action."
+   venue="IEEE-RAS International Conference on Humanoid Robotics"
+   year="2012"
+   id="2012humanoids1"
+   url="http://ieeexplore.ieee.org/document/6651598/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Improved Generalization for 3D Object Categorization with Global Structure Histogram"
+   authors="_M. Madry, C. H. Ek, R. Detry, K. Hang, D. Kragic"
+   abstract="We propose a new object descriptor for three dimensional data named the Global Structure Histogram (GSH). The GSH encodes the structure of a local feature response on a coarse global scale, providing a beneficial trade-off between generalization and discrimination. Encoding the structural characteristics of an object allows us to retain low local variations while keeping the benefit of global representativeness. In an extensive experimental evaluation, we applied the framework to category-based object classification in realistic scenarios. We show results obtained by combining the GSH with several different local shape representations, and we demonstrate significant improvements to other state-of-the-art global descriptors."
+   venue="IEEE/RSJ International Conference on Intelligent Robots and Systems"
+   year="2012"
+   id="2012iros1"
+   url="http://ieeexplore.ieee.org/document/6385874/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Manifold Relevance Determination"
+   authors="A. Damianou, C. H. Ek, M. Titsias, N. D. Lawrence" 
+   abstract="In this paper we present a fully Bayesian latent variable model which exploits conditional nonlinear (in)-dependence structures to learn an efficient latent representation. The latent space is factorized to represent shared and private information from multiple views of the data. In contrast to previous approaches, we introduce a relaxation to the discrete segmentation and allow for a “softly” shared latent space. Further, Bayesian techniques allow us to automatically estimate the dimensionality of the latent spaces. The model is capable of capturing structure underlying extremely high dimensional spaces. This is illustrated by modelling unprocessed images with tenths of thousands of pixels. This also allows us to directly generate novel images from the trained model by sampling from the discovered latent spaces. We also demonstrate the model by prediction of human pose in an ambiguous setting. Our Bayesian framework allows us to perform disambiguation in a principled manner by including latent space priors which incorporate the dynamic nature of the data"
+   venue="International Conference on Machine Learning"
+   year="2012"
+   id="2012icml"
+   url="http://www.icml.cc/2012/papers/94.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Generalizing Grasps Across Partly Similar Objects"
+   authors="R. Detry, C. H. Ek, M. Madry, J. Piater, D. Kragic"
+   abstract="The paper starts by reviewing the challenges associated to grasp planning, and previous work on robot grasping. Our review emphasizes the importance of agents that generalize grasping strategies across objects, and that are able to transfer these strategies to novel objects. In the rest of the paper, we then devise a novel approach to the grasp transfer problem, where generalization is achieved by learning, from a set of grasp examples, a dictionary of object parts by which objects are often grasped. We detail the application of dimensionality reduction and unsupervised clustering algorithms to the end of identifying the size and shape of parts that often predict the application of a grasp. The learned dictionary allows our agent to grasp novel objects which share a part with previously seen objects, by matching the learned parts to the current view of the new object, and selecting the grasp associated to the best-fitting part. We present and discuss a proof-of-concept experiment in which a dictionary is learned from a set of synthetic grasp examples. While prior work in this area focused primarily on shape analysis (parts identified, e.g., through visual clustering, or salient structure analysis), the key aspect of this work is the emergence of parts from both object shape and grasp examples. As a result, parts intrinsically encode the intention of executing a grasp."
+   venue="IEEE International Conference on Robotics and Automation"
+   year="2012"
+   id="2012icra1"
+   url="http://ieeexplore.ieee.org/document/6224992/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="”Robot give me something to drink from”: object representations for transferring task specific grasps"
+   authors="M. Madry, D. Song, C. H. Ek, D. Kragic"
+   abstract="— In this paper, we present an approach for taskspecific object representation which facilitates transfer of grasp knowledge from a known object to a novel one. Our representation encompasses: (a) several visual object properties, (b) object functionality and (c) task constrains in order to provide a suitable goal-directed grasp. We compare various features describing complementary object attributes to evaluate the balance between the discrimination and generalization properties of the representation. The experimental setup is a scene containing multiple objects. Individual object hypotheses are first detected, categorized and then used as the input to a grasp reasoning system that encodes the task information. Our approach not only allows to find objects in a real world scene that afford a desired task, but also to generate and successfully transfer task-based grasp within and across object categories."
+   venue="IEEE International Conference on Robotics and Automation, Workshop on Semantic Perception, Mapping and Exploration"
+   year="2012"
+   id="2012icra2"
+   url=""
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Model, Track and Analyse: Developments and Challenges in Understanding Facial Motion"
+   authors="A. Davies, C. Dalton, C. H. Ek and N. Campbell"
+   abstract="NULL"
+   venue="Swedish Symposium on Automated Image Analysis"
+   year="2012"
+   id="2012ssab"
+   url=""
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Generating 3D Morphable Model Parameters for Facial Tracking: Factorising Identity and Expression"
+   authors="A. Davies, C. H. Ek, C. Dalton and N. Campbell"
+   abstract="The ability to factorise parameters into identity and expression parameters is highly desirable in facial tracking as it requires only the identity parameters to be set in the initial frame leaving the expression parameters to be adjusted in subsequent frames. In this paper we introduce a strategy for creating parameters for a data-driven 3D Morphable Model (3DMM) which are able to separately model the variance due to identity and expression found in the training data. We present three factorisation schemes and evaluate their appropriateness for tracking by comparing the variances between the identity coefficients and expression coefficients when fitted to data of individuals performing different facial expressions."
+   venue="International Conference on Computer Graphics Theory and Applications"
+   year="2012"
+   id="2012grapp"
+   url=""
+   bibtex=""
+   %}
+   #+END_EXPORT
+** 2011
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Embodiment-specific representation of robot grasping using graphical models and latent-space discretization"
+   authors="D. Song, C. H. Ek, K. Huebner, and D. Kragic"
+   abstract="We study embodiment-specific robot grasping tasks, represented in a probabilistic framework. The framework consists of a Bayesian network (BN) integrated with a novel multi-variate discretization model. The BN models the probabilistic relationships among tasks, objects, grasping actions and constraints. The discretization model provides compact data representation that allows efficient learning of the conditional structures in the BN. To evaluate the framework, we use a database generated in a simulated environment including examples of a human and a robot hand interacting with objects. The results show that the different kinematic structures of the hands affect both the BN structure and the conditional distributions over the modeled variables. Both models achieve accurate task classification, and successfully encode the semantic task requirements in the continuous observation spaces. In an imitation experiment, we demonstrate that the representation framework can transfer task knowledge between different embodiments, therefore is a suitable model for grasp planning and imitation in a goal-directed manner."
+   venue="IEEE/RSJ International Conference on Intelligent Robots and Systems"
+   year="2011"
+   id="2012iros1"
+   url="http://ieeexplore.ieee.org/document/6094503/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Multivariate discretization for bayesian network structure learning in robot grasping"
+   authors="D. Song, C. H. Ek, K. Huebner, and D. Kragic"
+   abstract="A major challenge in modeling with BNs is learning the structure from both discrete and multivariate continuous data. A common approach in such situations is to discretize continuous data before structure learning. However efficient methods to discretize high-dimensional variables are largely lacking. This paper presents a novel method specifically aiming at discretization of high-dimensional, high-correlated data. The method consists of two integrated steps: non-linear dimensionality reduction using sparse Gaussian process latent variable models, and discretization by application of a mixture model. The model is fully probabilistic and capable to facilitate structure learning from discretized data, while at the same time retain the continuous representation. We evaluate the effectiveness of the method in the domain of robot grasping. Compared with traditional discretization schemes, our model excels both in task classification and prediction of hand grasp configurations. Further, being a fully probabilistic model it handles uncertainty in the data and can easily be integrated into other frameworks in a principled manner."
+   venue="IEEE International conference on robotics and automation"
+   year="2011"
+   id="2011icra1"
+   url="http://ieeexplore.ieee.org/document/5979666/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Representing actions with Kernels"
+   authors="G. Luo, N. Bergström, C. H. Ek, and D. Kragic"
+   abstract="A long standing research goal is to create robots capable of interacting with humans in dynamic environments. To realise this a robot needs to understand and interpret the underlying meaning and intentions of a human action through a model of its sensory data. The visual domain provides a rich description of the environment and data is readily available in most system through inexpensive cameras. However, such data is very high-dimensional and extremely redundant making modeling challenging."
+   venue="IEEE/RSJ International Conference on Intelligent Robots and Systems"
+   year="2012"
+   id="2012iros2"
+   url="http://ieeexplore.ieee.org/document/6094567/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Scene understanding through autonomous interactive perception"
+   authors="N. Bergstrom, C. H. Ek, M.Björkman, and D. Kragic"
+   abstract="We propose a framework for detecting, extracting and modeling objects in natural scenes from multi-modal data. Our framework is iterative, exploiting different hypotheses in a complementary manner. We employ the framework in realistic scenarios, based on visual appearance and depth information. Using a robotic manipulator that interacts with the scene, object hypotheses generated using appearance information are confirmed through pushing. The framework is iterative, each generated hypothesis is feeding into the subsequent one, continuously refining the predictions about the scene. We show results that demonstrate the synergic effect of applying multiple hypotheses for real-world scene understanding. The method is efficient and performs in real-time."
+   venue="International Conference on Computer Vision Systems"
+   year="2011"
+   id="2011icvs"
+   url="http://link.springer.com/chapter/10.1007%2F978-3-642-23968-7_16"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Learning Conditional Structures in Graphical Models from a Large Set of Observation Streams through efficient Discretisation"
+   authors="C. H. Ek, D. Song, and D. Kragic"
+   abstract="— The introduction of probabilistic graphical models to robotics research has been one of the success stories in the field over the last couple of years. Application of principles from statistical learning have allowed researchers to create systems which are aware and capable to reason about uncertainty in its observations. This has led to more robust and reliable systems. Many robotic applications are modeled from observations which are related by an underlying and unobserved conditional or casual relationship. One example of this is the study of affordances. Learning conditional structures from data has proved to be a tremendous challenge in the general case. Some progress have been made in special cases where the observations are discrete and low-dimensional. However, most interesting scenarios in robotics are characterized by high dimensional and continuous data. This means that for all but the simplest scenarios conditional structures had to be assumed in an ad-hoc manner and could not be learned from observations. In previous work [1] we have presented a method which allows for principled discretisation of continuous variables. In specific we applied this method in order to model the task of robotic grasping. In this paper we extends the work by introducing an additional prior into the model. The aim of this prior is to encourage an additional degree of sparseness in order to reduce the complexity of the discrete representation. Further, we also extend the learning domain by applying the model to a more challenging data-set, which further shows the benefits of the suggested approach."
+   venue="IEEE International Conference on Robotics and Automation, Workshop on Manipulation under Uncertainty"
+   year="2011"
+   id="2011icra2"
+   url="https://www.researchgate.net/profile/Carl_Henrik_Ek/publication/265239061_Learning_Conditional_Structures_in_Graphical_Models_from_a_Large_Set_of_Observation_Streams_through_efficient_Discretisation/links/5513e69a0cf283ee08349558.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="State Recognition of Deformable Objects Using Shape Context"
+   authors="N. Bergström, Y. Yamakawa, T. Senoo, C. H. Ek, and M. Ishikawa"
+   abstract="NULL"
+   venue="Annual Conference of the Robotics Society of Japan"
+   year="2011"
+   id="2011japan"
+   url=""
+   bibtex=""
+   %}
+   #+END_EXPORT
+** 2010
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Task Modeling in Imitation Learning using Latent Variable Models"
+   authors="C. H. Ek, D. Song, K. Huebner, and D. Kragic"
+   abstract="An important challenge in robotic research is learning and reasoning about different manipulation tasks from scene observations. In this paper we present a probabilistic model capable of modeling several different types of input sources within the same model. Our model is capable to infer the task using only partial observations. Further, our framework allows the robot, given partial knowledge of the scene, to reason about what information streams to acquire in order to disambiguate the state-space the most. We present results for task classification within and also reason about different features discriminative power for different classes of tasks."
+   venue="IEEE-RAS International Conference on Humanoid Robotics"
+   year="2010"
+   id="2010humanoids"
+   url="http://ieeexplore.ieee.org/document/5686348/"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Exploring affordances in robot grasping through latent structure representation"
+   authors="C. H. Ek, D. Song, K. Huebner, and D. Kragic"
+   abstract="An important challenge in robotic research is learning by imitation. The goal in such is to create a system whereby a robot can learn to perform a specific task by imitating a human instructor. In order to do so, the robot needs to determine the state of the scene through its sensory system. There is a huge range of possible sensory streams that the robot can make use of to reason and interact with its environment. Due to computational and algorithmic limitations we are interested in limiting the number of sensory inputs. Further, streams can be complementary both in general, but more importantly for specific tasks. Thereby, an intelligent and constrained limitation of the number of sensory inputs is motivated. We are interested in exploiting such structure in order to do what will be referred to as Goal-Directed-Perception (GDP). The goal of GDP is, given partial knowledge about the scene, to direct the robot’s modes of perception in order to maximally disambiguate the state space. In this paper, we present the application of two different probabilistic models in modeling the largely redundant and complementary observation space for the task of object grasping. We evaluate and discuss the results of both approaches."
+   venue="European Conference on Computer Vision: Workshop on Vision for Cognitive Tasks"
+   year="2010"
+   id="2010eccv"
+   url="http://workshops.acin.tuwien.ac.at/eccv10/Papers/W06.005.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title=" “FOLS: Factorized Orthogonal Latent Spaces"
+   authors="M. Salzmann, C. H. Ek, R. Urtasun, and T. Darrell"
+   abstract="Many machine learning problems inherently involve multiple views. Kernel combination approaches to multiview learning are particularly effective when the views are independent. In contrast, other methods take advantage of the dependencies in the data. The best-known example is Canonical Correlation Analysis (CCA), which learns latent representations of the views whose correlation is maximal. Unfortunately, this can result in trivial solutions in the presence of highly correlated noise. Recently, non-linear shared latent variable models that do not suffer from this problem have been proposed: the shared Gaussian process latent variable model (sGPLVM), and the shared kernel information embedding (sKIE). However, in real scenarios, information in the views is typically neither fully independent nor fully correlated. The few approaches that have tried to factorize the information into shared and private components are typically initialized with CCA, and thus suffer from its inherent weaknesses. In this paper, we propose a method to learn shared and private latent spaces that are inherently disjoint by introducing orthogonality constraints. Furthermore, we discover the structure and dimensionality of the latent representation of each data stream by encouraging it to be low dimensional, while still allowing to generate the data. Combined together, these constraints encourage finding factorized latent spaces that are non-redundant, and that can capture the shared-private separation of the data. We demonstrate the effectiveness of our approach by applying it to two existing models, the sGPLVM and the sKIE, and show significant performance improvement over the original models, as well as over the existing shared-private factorizations in the context of pose estimation."
+   venue="Snowbird Learning Workshop"
+   year="2010"
+   id="2010snowbirt"
+   url="https://pdfs.semanticscholar.org/f329/cfa1c27a59bed5e062cd91db25fa600c9717.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Factorized Orthogonal Latent Spaces"
+   authors="M. Salzmann, C. H. Ek, R. Urtasun, and T. Darrell"
+   abstract="Existing approaches to multi-view learning are particularly effective when the views are either independent (i.e, multi-kernel approaches) or fully dependent (i.e., shared latent spaces). However, in real scenarios, these assumptions are almost never truly satisfied. Recently, two methods have attempted to tackle this problem by factorizing the information and learn separate latent spaces for modeling the shared (i.e., correlated) and private (i.e., independent) parts of the data. However, these approaches are very sensitive to parameters setting or initialization. In this paper we propose a robust approach to factorizing the latent space into shared and private spaces by introducing orthogonality constraints, which penalize redundant latent representations. Furthermore, unlike previous approaches, we simultaneously learn the structure and dimensionality of the latent spaces by relying on a regularizer that encourages the latent space of each data stream to be low dimensional. To demonstrate the benefits of our approach, we apply it to two existing shared latent space models that assume full dependence of the views, the sGPLVM and the sKIE, and show that our constraints improve the performance of these models on the task of pose estimation from monocular images."
+   venue="International Conference on Artificial Intelligence and Statistics"
+   year="2010"
+   id="2010aistats"
+   url="http://ttic.uchicago.edu/~rurtasun/publications/SalzmannEkUrtasunDarrell10.pdf"
+   bibtex=""
+   %}
+   #+END_EXPORT
+** 2009
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Shared Gaussian Process Latent Variable Models for Handling Ambiguous Facial Expressions"
+   authors="C. H. Ek, P. Jaeckel, N. Campbell, and C. Melhuish"
+   abstract="Despite the fact, that, in reality facial expressions occur as a result of muscle actions, facial expression models assume an inverse functional relationship, which makes muscles action be the result of facial expressions. Clearly, facial expression should be expressed as a function of muscle action, the other way around as previously suggested. Furthermore, a human facial expression space and the robots actuator space have common features. However, there are also features that the one or the other does not have. This suggests modelling shared and non‐shared feature variance separately. To this end we propose Shared Gaussian Process Latent Variable Models (Shared GP‐LVM) for models of facial expressions, which assume shared and private features between an input and output space. In this work, we are focusing on the detection of ambiguities within data sets of facial behaviour. We suggest ways of modelling and mapping of facial motion from a representation of human facial expressions to a robot’s actuator space. We aim to compensate for ambiguities caused by interference of global with local head motion and the constrained nature of Active Appearance Models, used for tracking."
+   venue="Mediterranean Conference on Intelligent Systems and Automation"
+   year=""
+   id="2009face"
+   url="http://aip.scitation.org/doi/abs/10.1063/1.3106464"
+   bibtex=""
+   %}
+   #+END_EXPORT
+
+** 2008
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="GP-LVM for Data Consolidation"
+   authors="C. H. Ek, P.H.S Torr, N. D. Lawrende"
+   abstract="Many machine learning task are involved with the transfer of information from one representation to a corresponding representation or tasks where several different observations represent the same underlying phenomenon. A classical algorithm for feature selection using information from multiple sources or representations is Canonical Correlation Analysis (CCA). In CCA the objective is to select features in each observation space that are maximally correlated compared to dimension- ality reduction where the objective is to re-represent the d ata in a more efficient form. We suggest a dimensionality reduction technique that builds on CCA. By extending the latent space with two additional spaces, each specific to a partition of the data, the model is capable of representing the full var iance of the data. In this paper we suggest a generative model for shared dimensionality reduction analogous to that of CCA"
+   venue="Neural Information Processing Systems: Workshop on Learning from multiple sources"
+   year="2008"
+   id="2008nips"
+   url="https://www.researchgate.net/publication/241075354_GP-LVM_for_Data_Consolidation"
+   bibtex=""
+   %}
+   #+END_EXPORT
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Ambiguity modeling in latent spaces"
+   authors="C. H. Ek, J. Rihan, P. Torr, G. Rogez, and N. Lawrence"
+   abstract="We are interested in the situation where we have two or more representations of an underlying phenomenon. In particular we are interested in the scenario where the representation are complementary. This implies that a single individual representation is not sufficient to fully discriminate a specific instance of the underlying phenomenon, it also means that each representation is an ambiguous representation of the other complementary spaces. In this paper we present a latent variable model capable of consolidating multiple complementary representations. Our method extends canonical correlation analysis by introducing additional latent spaces that are specific to the different representations, thereby explaining the full variance of the observations. These additional spaces, explaining representation specific variance, separately model the variance in a representation ambiguous to the other. We develop a spectral algorithm for fast computation of the embeddings and a probabilistic model (based on Gaussian processes) for validation and inference. The proposed model has several potential application areas, we demonstrate its use for multi-modal regression on a benchmark human pose estimation data set."
+   venue="Machine Learning for Multimodal Interaction"
+   year="2008"
+   id="2008mlmi"
+   url="http://link.springer.com/chapter/10.1007%2F978-3-540-85853-9_6"
+   bibtex=""
+   %}
+   #+END_EXPORT
+** 2007
+   #+BEGIN_EXPORT html
+   {% include pub.html width=200 align="right" 
+   path=""
+   title="Gaussian process latent variable models for human pose estimation"
+   authors="C. H. Ek, P. Torr, and N. D. Lawrence"
+   abstract="We describe a method for recovering 3D human body pose from silhouettes. Our model is based on learning a latent space using the Gaussian Process Latent Variable Model (GP-LVM) [1] encapsulating both pose and silhouette features Our method is generative, this allows us to model the ambiguities of a silhouette representation in a principled way. We learn a dynamical model over the latent space which allows us to disambiguate between ambiguous silhouettes by temporal consistency. The model has only two free parameters and has several advantages over both regression approaches and other generative methods. In addition to the application shown in this paper the suggested model is easily extended to multiple observation spaces without constraints on type."
+   venue="International conference on Machine learning for multimodal interaction"
+   year="2007"
+   id="2007mlmi"
+   url="http://link.springer.com/chapter/10.1007/978-3-540-78155-4_12"
+   bibtex=""
+   %}
+   #+END_EXPORT
+

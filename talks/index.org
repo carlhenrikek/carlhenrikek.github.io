@@ -1,0 +1,82 @@
+#+STARTUP: showall expand
+#+STARTUP: hidestars
+#+options: toc:nil
+#+BEGIN_SRC yaml :exports results :results value html
+---
+layout: page
+title: Talks
+---
+#+END_SRC
+
+#+RESULTS:
+#+BEGIN_EXPORT html
+---
+layout: page
+title: Talks and Presentations
+---
+#+END_EXPORT
+
+* Talks
+  - University of Bristol, School Research Day, Plenary Talk, /Data efficient learning/, November 2018
+  - University of Bristol, Math Department, /Stochastic Variational Inference/, November 2018
+  - University of Bristol, Neuroscience research talk, /Factorised Dependency Structures/, October 2018
+  - University of Bristol, Math Department, /Gaussian processes and our lost friend the Factor Graph/, October 2018
+  - Webinar ClusterOne, /Free lunch? What allows us to learn from data?/, September 2018
+  - University of Exeter, Invited Talk, /Composite Bayesian Modelling/, May 2018
+  - Imperial College London, Invited Talk, /Data efficient and interpretable machine learning/, April 2018
+  - Siemens, Munich, /Gaussian Processes - Recent advances/, March 2018
+  - Vicarious, Invited Talk, /Bayesian non-parametrics and priors over functions/, February 2018
+  - University of Bath, Invited Talk, /Data efficient and interpretable machine learning/, January 2018
+  - University of Sheffield, Invited Talk, /Factorised Gaussian Processes/, June 2017
+  - Gaussian Process Approximation Workshop, Berlin, /Latent Gaussian Process Regression/, May 2017
+  - European Robotic Forum, Edinburgh, /Learning in Robotics/, April 2017
+  - Amazon Machine Learning Berlin, Invited Talk, /Learning from Alignments/, October 2016
+  - University of Oxford, Invited Talk, /Inter-Battery Latent Variable Models/, July 2016
+  - University of Bath, Invited Talk, /Shared Gaussian Process Latent Variable Models/, April 2016
+  - University of Bristol, SPHERE, Invited Talk, /Inter-Battery Latent Variable Models/, May 2016
+  - University of Aalto, /Feature Selection using Latent Variable Models/, January 2016
+  - Toposys EU project, Invited Talk, /Gaussian Processes/, November, 2014
+  - University of Manchester, Invited Talk, /Inter-Battery Factor Analysis and Factorised Latent Variable Models/, September 2014
+  - International Conference on Machine Vision and Machine Learning, Keynote, /Factorised Latent Variable Models/, August 2014
+  - University of Linköping, Invited Talk, /Factorised Latent Variable Models and Variational Inference/, May 2014
+  - University of Linköping, Invited Talk - Machine Learning Symposium, /Manifold Relevance Determination/, February 2014
+  - University of Bristol, Invited Talk, /Factorised Representations/, December 2013
+  - University of Uppsala, Invited Talk, /Factorised Latent Variable Models/ - with Gaussian Processes, October 2013
+  - University of Oxford, Phil Torr Symposium, /Representing Sequences with Kernels/, October 2013
+  - University of Zaragoza, Invited Talk, /Representing and Exploiting Structure in Sensory Data for Robotics and Computer Vision/, February 2013 
+  - University of Sheffield, Sheffield Institute for Translational Neuroscience, Invited Talk, /Representing Structure in Robotics and Computer Vision/, September 2012
+  - Blekinge Institute of Technology, Invited Talk, /The Art of Realtime/, May 2012
+  - Symposium on Robotic Skill Learning and Cognition, Invited Talk. /Abstraction by Structure/, April 2012.
+  - University of Göttingen, Invited Talk, /Data representation in Robotics/, February 2011.
+  - Uppsala University, Invited Talk, /Graphical Models for Grasping/, October 2010.
+  - ECCV - Vision for Cognitive Tasks, /Exploring Affordances in Robotic Grasping through Latent Structure Representation/, September 2010.
+  - KTH Stockholm, Departmental Seminar, /Shared Gaussian Process Latent Variable Models/. August 2009.
+  - University of Bristol, Departmental Seminar, /The Art of Realtime - an introduction to the demoscene/. June 2008
+  - University of Bristol, Departmental Seminar, /Shared Gaussian Process Latent Variable Models/. October 2007.
+  - University of Manchester, Reading Group, /Flow Networks and Graph Cuts/. 2007.
+  - University of Manchester, Invited Talk, /GP-LVM for Human Pose Estimation/. 2006.
+
+* Tutorials/Courses
+  - *Summer School:* /Unsupervised Learning using Gaussian Processes/ at the [[http://gpss.cc/gpss18][Gaussian Process Summer School]], September 2018
+  - *Tutorial:* /Bayesian Modelling/ at Siemens Munich, March 2018
+  - *Tutorial:* /Bayesian Non-parametrics and Priors over Functions/ at Vicarious, November 2018
+  - *Tutorial:* /Bayesian Non-parametrics and Priors over Functions/ at Imperial College London, November 2017
+  - *Summer School:* /Unsupervised Learning using Gaussian Processes/ at the [[http://gpss.cc/gpss17/][Gaussian Process and Uncertainty Quantification Summer School]]
+  - *PhD course:* /Machine Learning: beliefs, models and inference/, 15th Estonian Summer School on Computer and System Science, August 2017
+  - *Tutorial:* /Machine Learning - Models and Classification/, University of Bristol, Course for Sony organised by VILab, June 2016
+  - *Tutorial:* /Gaussian Processes - an introduction to probabilistic treatment of functions/, Karolinska Institute, Tutorial, March 2015
+  - *Summer School:* /Feature Selection using GP-LVM’s/ Gaussian Process Summer School, University of Sheffield, September 2014
+  - *PhD course:* /Representation Learning/, 2 day PhD level course, University of Aalborg, March 2014
+  - *Tutorial:* /Dimensionality Reduction/, University of Oxford, July 2007
+
+* Public Engagement 
+  - Ledarna, /Articifiell Intelligens och Inlarning fran Data/, April 2018
+  - University of Bristol, /AI, Media and our obsession with Data/, March 2018
+  - Unionen, /Intelligent Machines/, October, 2017
+  - WiseIT, /Articifiell Intelligens/, June, 2017
+  - WiseIT, /Articifiell Intelligens/, May, 2017
+  - Partsrådet, /Digitalisering, inlärning och värdet av information./,  April, 2017
+  - Partsrådet, /Artificial Intelligence and its implications on society and the labour market/, 1 day course, September 2016
+  - Partsrådet, /Artificial Intelligence and its implications on society and the labour market/, 1 day course, March 2016
+  - TEDx, [[https://www.google.se/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwib1vL9-qPRAhXGliwKHd5WC-oQtwIIGjAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dg2FiOz9FlTc&usg=AFQjCNFzO7TUqvyrXRMOZQW9CKCibkTn4Q&bvm=bv.142059868,d.bGg][/Why I do not fear Artificial Intelligence/]], December 2015
+  - Eurocon 2011, Invited Talk. /Robotics: What is the holdup/, June 2011. Eurocon is the biggest European Comic and Science Fiction event and I gave a talk on why real robots isn't like what we see in Star Trek.

@@ -1,0 +1,57 @@
+#+STARTUP: showall expand
+#+STARTUP: hidestars
+#+options: toc:nil
+#+HTML_MATHJAX:  path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js"
+#+begin_src yaml :exports results :results value html
+---
+layout: page
+title: "About"
+---
+#+end_src
+#+results:
+#+BEGIN_EXPORT html
+---
+layout: page
+title: "About"
+---
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+{% include image.html url="/bin/carlhenrikkth.png" width=300 align="left"%}
+#+END_EXPORT
+
+My name is *Carl Henrik Ek* and I am a Senior Lecturer in Computer Science at the University of Bristol, UK and a Docent in Machine Learning at the Royal Institute of Technology, Sweden.
+
+Learning is the task of associating a new phenomena to previous knowledge. Knowledge is the capability of providing structure to the environment. In the field of machine learning we try to build methods that are capable of learning directly from data. The fundamental aspect of learning is assumptions, being the realisation of knowledge, the science of machine learning is concerned with how to formulate assumptions into mathematical models (modelling) and how to related them to observed data (inference). My research focus spans both these areas, in specific I am interested in how we can specify data efficient and interpretable assumptions that allows us to learn from small amounts of data. Most of my work is focused on Bayesian non-parametric methods and in specific Gaussian processes.
+
+*Short Bio*
+Before joining Bristol I was an Assistant Professor in Machine Learning at the Royal Institute of Technology (KTH) in Stockholm. I did my postdoctoral research at University of California at Berkeley. My PhD is from Oxford Brookes University. I spent two years of my PhD at the University of Manchester where I was a research assistant in the Machine Learning and Optimisation group and a further six months at University of Sheffield as a visitor in the Machine Learning group. My supervisors during my PhD where Professor Neil Lawrence and Professor Phil Torr and for my post-doc Professor Trevor Darrell. Prior to this I was at University of Bristol where I was working together with Dr. Neill Campbell on Computer Vision in specific related to natural image statistics. My undergraduate degree was an MEng degree in Vehicle Engineering from KTH in Stockholm.
+
+* News
+  - 2018/09 :: Webinar titled [[https://www.youtube.com/watch?v=NLzUOnWnH1k][/Free lunch? What allows us to learn from data?/]]
+  - 2018/09 :: Gave a lecture on /Unsupervised Learning using Gaussian Processes/ at the [[http://gpss.cc/gpss18/][Gaussian Process Summer School]] The video of the talk can be found [[https://www.youtube.com/watch?list=PLFfvLE9TGnegjHFetV-zjPztaM_1UQk9B&time_continue=1&v=s7P4TToJY8Q][here]]
+  - 2018/05 :: Invited talk on /Composite Bayesian Modelling/ at University of Exeter
+  - 2018/03 :: Tutorial on /Bayesian modelling/ at Siemens, Munich
+  - 2018/03 :: Lecture and Panel debate on /AI, Media and our obsession with Data/
+  - 2018/02 :: Gave a tutorial title /Bayesian Non-parametrics and Priors over Functions/ at Vicarious, Bay Area. 
+  - 2017/11 :: Gave a tutorial titled [[https://www.youtube.com/watch?v=2icttI4YfFs][Bayesian Non-parametrics and Priors over Functions]] at Imperial College London.
+  - 2017/10 :: Gave a lecture on /Intelligent Machines/ for [[https://www.unionen.se/][Unionen]] a Swedish union for executives.
+  - 2017/09 :: Gave a lecture on /Unsupervised Learning using Gaussian Processes/ at the [[http://gpss.cc/gpss17/][Gaussian Process and Uncertainty Quantification Summer School]] The video of the talk can be found [[https://youtu.be/XZOUMRlmL_Y?list=PLpTp0l_CVmgwyAthrUmmdIFiunV1VvicM][here]]
+  - 2017/08 :: Gave 3 lectures on Machine Learning at the [[https://courses.cs.ut.ee/t/esscass2017/Main/CFP][Estonian Summer School on Computer and Systems Science]] titled /Assumptions/, /Models/ and /Inference/.
+  - 2017/06 :: Gave a 1 day course on machine learning for developers for Peltarion in Stockholm
+  - 2017/05 :: Gave seminar on AI for [[http://www.wiseit.se/][WiseIT]] in Stockholm
+  - 2017/04 :: Gave a seminar for [[http://partsradet.se/om-2/representantskap/ai-ar-inte-magi/][Partsrådet]] titled /Digitalisation, Learning and the value of information/
+  - 2016/10 :: Awarded Teacher of the year in Computer Science at University of Bristol
+  - 2016/09 :: Gave open lecture on /Artificial Intelligence and the Future of Employment/
+  - 2016/03 :: Gave a workshop on /Thinking Machines in a Digital World/ for [[http://partsradet.se/arbetsomraden/tidigare/forandring-och-utveckling/utvecklingsprogram/start-for-2016-ars-utvecklingsprogram/][Partsrådet]]
+  - 2016/06 :: Organising [[http://iv2016.berkeleyvision.org/][Workshop on Learning Representations at Intelligent Vehicles]] in Gothenburg with Trevor Darrell and Erik Rodner. I am also a Associate Workshop Editor for the conference.
+  - 2016/04 :: New paper titled Multi-view Learning as a Nonparametric Nonlinear Inter-Battery Factor Analysis available on [[http://arxiv.org/abs/1604.04939][arXiv]]
+  - 2016/02 :: Awarded the degree of Docent in Machine Learning at Royal Institute of Technology, KTH, Stockholm, Sweden
+  - 2016/01 :: Acted as opponent for Ekaterina Kolycheva defending her thesis /Grasp planning under uncertainty/.
+  - 2015/12 :: I gave a [[https://www.ted.com/tedx/events/17751][TEDx]] talk titled “Why I do not fear Artificial Intelligence” you can find the Video of the talk [[https://www.youtube.com/watch?v=g2FiOz9FlTc&list=PLsRNoUx8w3rNPudaJgiY_3OSFDVy79MU7][here]].
+  - 2015/12 :: Interview (in Swedish) for Campi magazine [[https://campi.kth.se/nyheter/med-bergfast-tilltro-till-studenterna-1.613960][URL]]
+  - 2015/11 :: Awarded Teacher of the year at Royal Institute of Technology, Sweden [[file:bin/2015_TeacherOfTheYear.pdf][motivation]]
+  - 2015/10 :: Awarder Teacher of the year from Student chapter in Industrial Economics at Royal Institute of Technology 
+  - 2013/10 :: Interview (in Swedish) about teaching in national Swedish student magazine Shortcut [[http://shortcut.se/artiklar/man-lar-sig-nar-man-har-roligt/][URL]]
+  - 2012/06 :: Awarded Teacher of the year in Computer Science at Royal Institute of Technology
+       

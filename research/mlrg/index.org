@@ -1,0 +1,11 @@
+#+STARTUP: showall expand
+#+STARTUP: hidestars
+#+options: toc:nil
+#+BEGIN_SRC yaml :exports results :results value html
+---
+layout: page
+title: Machine Learning Reading Group
+---
+#+END_SRC
+
+- 2016/12/02 :: Introduction to Variational Inference [[file:bin/20161202.pdf][slides]]
