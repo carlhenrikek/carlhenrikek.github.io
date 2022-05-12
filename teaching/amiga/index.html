@@ -131,9 +131,9 @@
 This tutorial is aimed at people who are interested in starting to program the Commodore Amiga. As we want to understand a computer and not a programming language and as we want to write as efficient code as possible we will code in assembler. You are not expected to know assembler before we start and we will go through everything that you need. If you need a reason to take this tutorial 
 </p>
 
-<div id="outline-container-orgdfd9732" class="outline-2">
-<h2 id="orgdfd9732">Introduction to the Commodore Amiga</h2>
-<div class="outline-text-2" id="text-orgdfd9732">
+<div id="outline-container-orgb2f1121" class="outline-2">
+<h2 id="orgb2f1121">Introduction to the Commodore Amiga</h2>
+<div class="outline-text-2" id="text-orgb2f1121">
 <dl class="org-dl">
 <dt>History</dt><dd>How did the Amiga Come about?</dd>
 <dt>Structure</dt><dd>What is the intention of this?</dd>
@@ -141,9 +141,9 @@ This tutorial is aimed at people who are interested in starting to program the C
 </dl>
 </div>
 </div>
-<div id="outline-container-org33a5428" class="outline-2">
-<h2 id="org33a5428">Motorola 680x0</h2>
-<div class="outline-text-2" id="text-org33a5428">
+<div id="outline-container-orga13161a" class="outline-2">
+<h2 id="orga13161a">Motorola 680x0</h2>
+<div class="outline-text-2" id="text-orga13161a">
 <dl class="org-dl">
 <dt>Strucutre</dt><dd>How is the Amiga hardware structured?</dd>
 <dt>680x0 ASM</dt><dd>We will go through the basics needed to program 680x0 assembler, the instructions that we need, the flags/conditions and the different addressing modes. I doubt there is a nicer CPU to program then the 680x0 architecture especially if you are coming from the x86 world.</dd>
@@ -151,9 +151,9 @@ This tutorial is aimed at people who are interested in starting to program the C
 </dl>
 </div>
 </div>
-<div id="outline-container-org01f0cfe" class="outline-2">
-<h2 id="org01f0cfe">The Chipset</h2>
-<div class="outline-text-2" id="text-org01f0cfe">
+<div id="outline-container-orgbe18bfe" class="outline-2">
+<h2 id="orgbe18bfe">The Chipset</h2>
+<div class="outline-text-2" id="text-orgbe18bfe">
 <p>
 Now we have gathered the tools to be able to start exploring the chips that makes the Amiga such a unique platform. We will begin by looking at how we can set-up a screen.
 </p>
@@ -163,32 +163,32 @@ Now we have gathered the tools to be able to start exploring the chips that make
 </dl>
 </div>
 </div>
-<div id="outline-container-orgb5b348e" class="outline-2">
-<h2 id="orgb5b348e">Effects</h2>
-<div class="outline-text-2" id="text-orgb5b348e">
+<div id="outline-container-org42d09b0" class="outline-2">
+<h2 id="org42d09b0">Effects</h2>
+<div class="outline-text-2" id="text-org42d09b0">
 <p>
 In this session we will look at how we can start writing some simple effects using only the copper and the CPU. We will also look at some demos and try to see how things have been done.
 </p>
 </div>
 </div>
-<div id="outline-container-orgf66f30e" class="outline-2">
-<h2 id="orgf66f30e">Demo</h2>
-<div class="outline-text-2" id="text-orgf66f30e">
+<div id="outline-container-orgd20ffc6" class="outline-2">
+<h2 id="orgd20ffc6">Demo</h2>
+<div class="outline-text-2" id="text-orgd20ffc6">
 <p>
 In this last session we will summarise what we have looked at and where to go next. What is needed to create your own demo.
 </p>
 </div>
-<div id="outline-container-org6ac3df4" class="outline-3">
-<h3 id="org6ac3df4">The player</h3>
-<div class="outline-text-3" id="text-org6ac3df4">
+<div id="outline-container-org88b2d1c" class="outline-3">
+<h3 id="org88b2d1c">The player</h3>
+<div class="outline-text-3" id="text-org88b2d1c">
 <p>
 In this tutorial we have focused on graphics but the Amiga has quite a good sound chip as well. Referred to as Paula she can play sampled music in 4-chanels (or voices) and even though she doesn't have as characteristic sounds as the YM or the SID chip of she can still be recognised mainly due to the tracker-style music that was developed on her. Sadly we do not have time to discuss Paula in detail but we will set-up a minimal system and look at how we can time effects to music.
 </p>
 </div>
 </div>
-<div id="outline-container-org7296341" class="outline-3">
-<h3 id="org7296341">Chunky-to-Planar</h3>
-<div class="outline-text-3" id="text-org7296341">
+<div id="outline-container-org0383df1" class="outline-3">
+<h3 id="org0383df1">Chunky-to-Planar</h3>
+<div class="outline-text-3" id="text-org0383df1">
 <p>
 Some effects are really tricky to write in Bitplane mode as it requires lots of masking and adressing in order to be able to write a single pixel. Therefore it is sometimes desirable to have a <i>chunky</i> screen instead, i.e. a scree where you can adress each 8-bit pixel individually. To do so we can use a Chunky-to-Planar converter or a <b>c2p</b>. The calculations to perform this conversion is rather hefty to we can only use this on rather fast machines, 030 and upwards.
 </p>
